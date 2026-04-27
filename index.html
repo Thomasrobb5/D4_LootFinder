@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D4 Loot Finder | Maxroll Style</title>
+    <link rel="icon" type="image/webp" href="Diablo_IV_2019_nosmoke_logo.webp">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            bg: '#111111',
+                            card: '#1a1a1a',
+                            gold: '#c9a66b',
+                            goldHover: '#eaddc0',
+                            red: '#b71c1c',
+                            redHover: '#ff4d4d'
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'system-ui', 'sans-serif'],
+                    }
+                }
+            }
+        }
+    </script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-brand-bg text-gray-300 font-sans antialiased min-h-screen flex flex-col selection:bg-brand-gold selection:text-black">
+
+    <!-- Top Navigation -->
+    <nav class="border-b border-white/10 bg-brand-bg/95 sticky top-0 z-40 backdrop-blur-md">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-16">
+                <div class="flex items-center gap-3">
+                    <img src="Diablo_IV_2019_nosmoke_logo.webp" alt="Diablo IV Logo" class="h-8 w-auto drop-shadow-[0_0_8px_rgba(201,166,107,0.3)]">
+                    <span class="text-xl font-bold text-white tracking-wide border-l border-white/20 pl-3">Loot <span class="text-brand-gold">Finder</span></span>
+                </div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#" class="text-brand-gold hover:text-brand-goldHover transition-colors font-medium text-sm">Boss Loot</a>
+                    <a href="https://d4-discord-challenge.pages.dev" class="text-gray-400 hover:text-white transition-colors font-medium text-sm" target="_blank" rel="noopener noreferrer">D4 Discord Game</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <div class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 w-full flex flex-col md:flex-row gap-8">
+        
+        <!-- Sidebar Filters -->
+        <aside class="w-full md:w-64 flex-shrink-0">
+            <div class="glass rounded-xl p-5 sticky top-24">
+                <h3 class="text-white font-semibold mb-4 text-lg border-b border-white/10 pb-2">Filters</h3>
+                
+                <div class="space-y-6">
+                    <div>
+                        <h4 class="text-xs uppercase text-gray-500 font-bold mb-3 tracking-wider">Class</h4>
+                        <ul class="space-y-2" id="class-filters">
+                            <li><label class="flex items-center gap-2 cursor-pointer hover:text-brand-gold transition-colors"><input type="radio" name="class" value="All" checked class="accent-brand-gold bg-brand-bg border-gray-600"> <span>All Classes</span></label></li>
+                            <li><label class="flex items-center gap-2 cursor-pointer hover:text-brand-gold transition-colors"><input type="radio" name="class" value="Barbarian" class="accent-brand-gold"> <span>Barbarian</span></label></li>
+                            <li><label class="flex items-center gap-2 cursor-pointer hover:text-brand-gold transition-colors"><input type="radio" name="class" value="Druid" class="accent-brand-gold"> <span>Druid</span></label></li>
+                            <li><label class="flex items-center gap-2 cursor-pointer hover:text-brand-gold transition-colors"><input type="radio" name="class" value="Necromancer" class="accent-brand-gold"> <span>Necromancer</span></label></li>
+                            <li><label class="flex items-center gap-2 cursor-pointer hover:text-brand-gold transition-colors"><input type="radio" name="class" value="Rogue" class="accent-brand-gold"> <span>Rogue</span></label></li>
+                            <li><label class="flex items-center gap-2 cursor-pointer hover:text-brand-gold transition-colors"><input type="radio" name="class" value="Sorcerer" class="accent-brand-gold"> <span>Sorcerer</span></label></li>
+                            <li><label class="flex items-center gap-2 cursor-pointer hover:text-brand-gold transition-colors"><input type="radio" name="class" value="Mythic Uniques" class="accent-brand-gold"> <span class="text-[#c16bff]">Mythic Uniques</span></label></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-grow min-w-0">
+            
+            <!-- Hero / Search -->
+            <div class="mb-10 text-center md:text-left">
+                <h1 class="text-3xl md:text-5xl font-bold text-white mb-4 tracking-tight">Find Your <span class="text-gradient-gold">Unique</span></h1>
+                <p class="text-gray-400 mb-8 max-w-2xl">Search for any unique item to see which boss drops it, or browse all bosses to view their complete loot tables. Data updated for latest season.</p>
+                
+                <div class="relative max-w-2xl">
+                    <div class="absolute inset-y-0 left-0 pl-4 flex items-center pointer-events-none">
+                        <svg class="h-5 w-5 text-gray-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                        </svg>
+                    </div>
+                    <input type="text" id="search-input" autocomplete="off" placeholder="Search items (e.g. Shako, Tibault's Will)..." 
+                        class="w-full bg-brand-card border border-white/10 rounded-xl py-4 pl-12 pr-4 text-white placeholder-gray-500 focus:outline-none focus:ring-2 focus:ring-brand-gold focus:border-transparent transition-all shadow-lg text-lg">
+                    
+                    <!-- Autocomplete Dropdown -->
+                    <div id="autocomplete-dropdown" class="absolute w-full mt-2 bg-brand-card border border-white/10 rounded-xl shadow-2xl overflow-hidden z-30 hidden glass max-h-80 overflow-y-auto">
+                        <!-- Populated via JS -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Dynamic Content Area -->
+            <div id="content-area">
+                <!-- Default View: Bosses -->
+                <div id="boss-view">
+                    <div class="flex items-center justify-between mb-6">
+                        <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                            <span class="w-1.5 h-6 bg-brand-red rounded-full block"></span>
+                            Boss Loot Tables
+                        </h2>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-3 gap-5" id="boss-grid">
+                        <!-- Populated via JS -->
+                    </div>
+                </div>
+
+                <!-- Item Results View -->
+                <div id="item-results" class="hidden">
+                    <div class="flex items-center justify-between mb-6">
+                        <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                            <span class="w-1.5 h-6 bg-brand-gold rounded-full block"></span>
+                            Search Results
+                        </h2>
+                        <button id="clear-search" class="text-sm text-gray-400 hover:text-white underline">Clear</button>
+                    </div>
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5" id="items-grid">
+                        <!-- Populated via JS -->
+                    </div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+
+    <!-- Modals -->
+    <!-- Item Modal -->
+    <div id="item-modal" class="modal-overlay fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
+        <div class="modal-content glass w-full max-w-2xl rounded-2xl overflow-hidden shadow-2xl flex flex-col max-h-[90vh]">
+            <div class="p-6 border-b border-white/10 flex justify-between items-start bg-brand-card">
+                <div>
+                    <h2 id="modal-item-name" class="text-2xl font-bold text-brand-gold mb-1">Item Name</h2>
+                    <p id="modal-item-classes" class="text-sm text-gray-400">Classes</p>
+                </div>
+                <button class="close-modal text-gray-400 hover:text-white transition-colors p-1">
+                    <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            <div class="p-6 overflow-y-auto flex-grow">
+                <h3 class="text-sm uppercase text-gray-500 font-bold mb-4 tracking-wider">Dropped By</h3>
+                <div id="modal-item-bosses" class="space-y-4">
+                    <!-- Populated via JS -->
+                </div>
+                
+                <div class="mt-8 p-4 bg-brand-bg rounded-lg border border-white/5">
+                    <div class="flex items-start gap-3">
+                        <svg class="w-5 h-5 text-brand-gold mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path></svg>
+                        <p class="text-sm text-gray-400 leading-relaxed">
+                            <strong class="text-gray-300">General Unique Pool:</strong> This item can also drop randomly anywhere in the game (Helltides, Nightmare Dungeons, Infernal Hordes), but fighting the bosses listed above gives you the highest targeted drop chance.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Boss Modal -->
+    <div id="boss-modal" class="modal-overlay fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/80 backdrop-blur-sm">
+        <div class="modal-content glass w-full max-w-3xl rounded-2xl overflow-hidden shadow-2xl flex flex-col max-h-[90vh]">
+            <div class="p-6 border-b border-white/10 flex justify-between items-start bg-gradient-to-r from-brand-card to-[#2a1111]">
+                <div>
+                    <h2 id="modal-boss-name" class="text-3xl font-bold text-white mb-2">Boss Name</h2>
+                    <div class="flex flex-wrap gap-2 text-xs font-medium">
+                        <span id="modal-boss-diff" class="bg-white/10 text-gray-300 px-2.5 py-1 rounded-md">Difficulty</span>
+                        <span id="modal-boss-elem" class="bg-brand-red/20 text-brand-red px-2.5 py-1 rounded-md border border-brand-red/20">Element</span>
+                    </div>
+                </div>
+                <button class="close-modal text-gray-400 hover:text-white transition-colors p-1 bg-black/20 rounded-full">
+                    <svg class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path></svg>
+                </button>
+            </div>
+            <div class="p-6 overflow-y-auto flex-grow bg-brand-bg">
+                
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                    <div class="bg-brand-card p-4 rounded-xl border border-white/5">
+                        <h4 class="text-xs uppercase text-gray-500 font-bold mb-2">Summoning Material</h4>
+                        <p id="modal-boss-summon" class="text-brand-gold font-medium">Materials</p>
+                    </div>
+                    <div class="bg-brand-card p-4 rounded-xl border border-white/5">
+                        <h4 class="text-xs uppercase text-gray-500 font-bold mb-2">Location</h4>
+                        <p id="modal-boss-location" class="text-gray-200">Location</p>
+                    </div>
+                </div>
+
+                <h3 class="text-lg font-bold text-white mb-4 border-b border-white/10 pb-2 flex items-center gap-2">
+                    <span class="w-1 h-5 bg-brand-gold rounded-full block"></span> Complete Loot Table
+                </h3>
+                
+                <div id="modal-boss-loot" class="grid grid-cols-1 md:grid-cols-2 gap-x-8 gap-y-6">
+                    <!-- Populated via JS -->
+                </div>
+
+                <div class="mt-8 pt-4 border-t border-white/10" id="modal-boss-cosmetic-container">
+                    <h4 class="text-xs uppercase text-gray-500 font-bold mb-2">Cosmetic Drops</h4>
+                    <p id="modal-boss-cosmetic" class="text-sm text-gray-400">None</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,98 @@
+/* Maxroll Dark Theme Colors */
+:root {
+  --bg-main: #111111;
+  --bg-card: #1a1a1a;
+  --bg-card-hover: #222222;
+  --color-gold: #c9a66b;
+  --color-red: #b71c1c;
+  --text-main: #d1d5db;
+  --text-muted: #9ca3af;
+  --border-subtle: rgba(255, 255, 255, 0.08);
+}
+
+body {
+  background-color: var(--bg-main);
+  background-image: 
+    linear-gradient(to bottom, rgba(17, 17, 17, 0.85), rgba(17, 17, 17, 0.95)),
+    url('1105165.jpg');
+  background-size: cover;
+  background-position: center top;
+  background-attachment: fixed;
+  color: var(--text-main);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-main);
+}
+::-webkit-scrollbar-thumb {
+  background: #333;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-gold);
+}
+
+/* Glassmorphism */
+.glass {
+  background: rgba(26, 26, 26, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--border-subtle);
+}
+
+/* Hover Glow Effects */
+.card-hover {
+  transition: all 0.3s ease;
+  border: 1px solid var(--border-subtle);
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  border-color: var(--color-gold);
+  box-shadow: 0 8px 30px rgba(201, 166, 107, 0.15);
+}
+
+.boss-card-hover {
+  transition: all 0.3s ease;
+  border: 1px solid var(--border-subtle);
+}
+.boss-card-hover:hover {
+  border-color: var(--color-red);
+  box-shadow: 0 8px 30px rgba(183, 28, 28, 0.2);
+}
+
+/* Modal Animations */
+.modal-overlay {
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease-out;
+}
+.modal-overlay.active {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal-content {
+  opacity: 0;
+  transform: scale(0.95) translateY(10px);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+.modal-overlay.active .modal-content {
+  opacity: 1;
+  transform: scale(1) translateY(0);
+}
+
+/* Text Gradients */
+.text-gradient-gold {
+  background: linear-gradient(to right, #eaddc0, #c9a66b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.text-gradient-red {
+  background: linear-gradient(to right, #ff4d4d, #b71c1c);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
