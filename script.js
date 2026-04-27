@@ -35,7 +35,11 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         // Filter items
-        const matches = allItems.filter(item => item.name.toLowerCase().includes(query));
+        const matches = allItems.filter(item => {
+            const matchesQuery = item.name.toLowerCase().includes(query);
+            const matchesFilter = currentFilter === 'All' || item.classes.some(c => c.includes(currentFilter)) || item.classes.includes('All Classes');
+            return matchesQuery && matchesFilter;
+        });
         
         if (matches.length > 0) {
             renderAutocomplete(matches, query);
@@ -115,7 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function performSearch(query) {
         const matches = allItems.filter(item => {
             const matchesQuery = item.name.toLowerCase().includes(query.toLowerCase());
-            const matchesFilter = currentFilter === 'All' || item.classes.includes(currentFilter) || item.classes.includes('All Classes');
+            const matchesFilter = currentFilter === 'All' || item.classes.some(c => c.includes(currentFilter)) || item.classes.includes('All Classes');
             return matchesQuery && matchesFilter;
         });
 
@@ -279,6 +283,10 @@ document.addEventListener('DOMContentLoaded', () => {
         lootContainer.innerHTML = '';
 
         Object.entries(boss.loot).forEach(([className, items]) => {
+            if (currentFilter !== 'All' && !className.includes(currentFilter) && className !== 'All Classes' && className !== 'Mythic Uniques') {
+                return;
+            }
+
             const group = document.createElement('div');
             let colorClass = 'text-brand-gold';
             if(className === 'Mythic Uniques') colorClass = 'text-[#c16bff]';
