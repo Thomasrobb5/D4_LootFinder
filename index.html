@@ -42,8 +42,9 @@
                     <span class="text-xl font-bold text-white tracking-wide border-l border-white/20 pl-3">Loot <span class="text-brand-gold">Finder</span></span>
                 </div>
                 <div class="hidden md:flex space-x-6">
-                    <a href="#" class="text-brand-gold hover:text-brand-goldHover transition-colors font-medium text-sm">Boss Loot</a>
-                    <a href="https://d4-discord-challenge.pages.dev" class="text-gray-400 hover:text-white transition-colors font-medium text-sm" target="_blank" rel="noopener noreferrer">D4 Discord Game</a>
+                    <a href="#" id="nav-boss" class="text-brand-gold hover:text-brand-goldHover transition-colors font-medium text-sm border-b-2 border-brand-gold pb-1">Boss Loot</a>
+                    <a href="#" id="nav-class" class="text-gray-400 hover:text-white transition-colors font-medium text-sm pb-1 border-b-2 border-transparent hover:border-white/30">Class Uniques</a>
+                    <a href="https://d4-discord-challenge.pages.dev" class="text-gray-400 hover:text-white transition-colors font-medium text-sm pb-1 border-b-2 border-transparent hover:border-white/30" target="_blank" rel="noopener noreferrer">D4 Discord Game</a>
                 </div>
             </div>
         </div>
@@ -64,8 +65,11 @@
                             <li><label class="flex items-center gap-2 cursor-pointer hover:text-brand-gold transition-colors"><input type="radio" name="class" value="Barbarian" class="accent-brand-gold"> <span>Barbarian</span></label></li>
                             <li><label class="flex items-center gap-2 cursor-pointer hover:text-brand-gold transition-colors"><input type="radio" name="class" value="Druid" class="accent-brand-gold"> <span>Druid</span></label></li>
                             <li><label class="flex items-center gap-2 cursor-pointer hover:text-brand-gold transition-colors"><input type="radio" name="class" value="Necromancer" class="accent-brand-gold"> <span>Necromancer</span></label></li>
+                            <li><label class="flex items-center gap-2 cursor-pointer hover:text-brand-gold transition-colors"><input type="radio" name="class" value="Paladin" class="accent-brand-gold"> <span>Paladin</span></label></li>
                             <li><label class="flex items-center gap-2 cursor-pointer hover:text-brand-gold transition-colors"><input type="radio" name="class" value="Rogue" class="accent-brand-gold"> <span>Rogue</span></label></li>
                             <li><label class="flex items-center gap-2 cursor-pointer hover:text-brand-gold transition-colors"><input type="radio" name="class" value="Sorcerer" class="accent-brand-gold"> <span>Sorcerer</span></label></li>
+                            <li><label class="flex items-center gap-2 cursor-pointer hover:text-brand-gold transition-colors"><input type="radio" name="class" value="Spiritborn" class="accent-brand-gold"> <span>Spiritborn</span></label></li>
+                            <li><label class="flex items-center gap-2 cursor-pointer hover:text-brand-gold transition-colors"><input type="radio" name="class" value="Warlock" class="accent-brand-gold"> <span>Warlock</span></label></li>
                             <li><label class="flex items-center gap-2 cursor-pointer hover:text-brand-gold transition-colors"><input type="radio" name="class" value="Mythic Uniques" class="accent-brand-gold"> <span class="text-[#c16bff]">Mythic Uniques</span></label></li>
                         </ul>
                     </div>
@@ -123,6 +127,24 @@
                         <button id="clear-search" class="text-sm text-gray-400 hover:text-white underline">Clear</button>
                     </div>
                     <div class="grid grid-cols-1 md:grid-cols-2 gap-5" id="items-grid">
+                        <!-- Populated via JS -->
+                    </div>
+                </div>
+
+                <!-- Class View -->
+                <div id="class-view" class="hidden">
+                    <div class="flex items-center justify-between mb-6">
+                        <h2 class="text-2xl font-bold text-white flex items-center gap-2">
+                            <span class="w-1.5 h-6 bg-[#6b8cff] rounded-full block"></span>
+                            Class Uniques
+                        </h2>
+                    </div>
+                    
+                    <div class="flex flex-wrap gap-2 mb-6 border-b border-white/10 pb-6" id="class-view-tabs">
+                        <!-- Populated by JS -->
+                    </div>
+
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-5" id="class-view-grid">
                         <!-- Populated via JS -->
                     </div>
                 </div>

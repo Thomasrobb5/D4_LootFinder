@@ -19,6 +19,7 @@ Every Boss Lair encounter can drop items from the General Unique Pool in additio
 ‍Razorplate
 ‍Rustbitten Dirk
 ‍Shard of Verathiel
+‍Signet of Pelghain
 ‍Soulbrand
 ‍Tassets of the Dawning Sky
 ‍Temerity
@@ -36,7 +37,7 @@ Boss Loot Tables
 Basic Information
 Requires Torment 1 or higher.
 Activity Required: Complete Tree of Whispers
-Boss Lair Key: 1x Lair Key
+Boss Lair Key: 1x ‍Lair Key
 Element Type: Shadow / Physical
 Cosmetic Reward: ‍Flesh-weld Rod Trophy
 
@@ -44,55 +45,45 @@ The Malignant Burrow is located near the Tree of Whispers Waypoint in Hawezar
 Barbarian:
 
 ‍100,000 Steps
-‍Fields of Crimson
-‍Gohr's Devastating Grips
-‍Ring of Red Furor
-‍Sabre of Tsasgal
+‍Overkill
 Druid:
 
-‍Airidah's Inexorable Will
+‍Autumnal Crown
 ‍Greatstaff of the Crone
-‍Mad Wolf's Glee
-‍Rotting Lightbringer
-‍Vasily's Prayer
+‍Stone of Vehemen
 Necromancer:
 
-‍Bloodless Scream
-‍Deathless Visage
-‍Deathspeaker's Pendant
-‍Gospel of the Devotee
-‍Ring of the Sacrilegious Soul
+‍Hangman's Hand
+‍The Hand of Naz
 Paladin:
 
-‍Arcadia
-‍Dawnfire
-‍Sunbrand
-‍Ward of the White Dove
+‍Seal of the Second Trumpet
+‍Ward of the White Dove ?
+‍Wreath of Auric Laurel
 Rogue:
 
-‍Condemnation
-‍Eyes in the Dark
-‍Skyhunter
-‍Writhing Band of Trickery
+‍Death's Pavane
+‍Eaglehorn
+‍Pitfighter's Gull
 Sorcerer:
 
-‍Esu's Heirloom
-‍Orsivane
-‍Raiment of the Infinite
-‍Staff of Endless Rage
-‍Tal Rasha's Iridescent Loop
+‍Levin Grasp
+‍Onyx Soul
+‍Raiment of the Sea
+‍Vox Omnium
 Spiritborn:
 
 ‍Balazan's Maxtlatl
-‍Craze of the Dead God
-‍Ring of Writhing Moon
 ‍Sunstained War-Crozier
+Warlock:
+
+‍Ae'grom's Schism
+‍Seal of the Ophanim
+‍Thrice-Woven Nightmare
 Multiple Classes:
 
-‍Frostburn
-‍Mother's Embrace
-‍Rakanoth's Wake
 ‍Shard of Verathiel
+‍Tibault's Will ?
 + Items from the General Unique Pool.
 
 Grigoire, The Galvanic Saint
@@ -100,64 +91,48 @@ Boss Loot Tables
 Basic Information
 Requires Torment 1 or higher.
 Activity Recommended: Complete Helltide
-Boss Lair Key: 1x Lair Key
+Boss Lair Key: 1x ‍Lair Key
 Element Type: Lightning
 Cosmetic Reward: ‍Demonbinder Mount Armor Cosmetic
 
 The Hall of the Penitent is located South of Ked Bardu in the Dry Steppes
 Barbarian:
 
-‍Battle Trance
-‍Rage of Harrogath
-‍Twin Strikes
-‍Unbroken Chain
+‍Gohr's Devastating Grips
+‍Might of Qual-Kehk
 Druid:
 
-‍Earthbreaker
 ‍Hunter's Zenith
-‍Insatiable Fury
-‍Khamsin Steppewalkers
-‍Waxing Gibbous
+‍The Basilisk
+‍Will of Stone
 Necromancer:
 
-‍Ebonpiercer
-‍Greaves of the Empty Tomb
-‍Howl from Below
-‍Path of Trag'Oul
-‍The Mortacrux
+‍Deathgrip
 Paladin:
 
-‍Mantle of the Grey
-‍March of the Stalwart Soul
-‍Sundered Night
-‍Supplication
+‍Bastion of Sir Matthias
+‍Sunbrand
 Rogue:
 
-‍Bands of Ichorous Rose
-‍Grasp of Shadow
-‍Saboteur's Signet
-‍Shroud of Khanduras
-‍Word of Hakan
+‍Desperate March
+‍The Maestro
 Sorcerer:
 
-‍Axial Conduit
-‍Flameweaver
-‍Hail of Verglas
-‍Iceheart Brais
-‍Staff of Lam Esen
+‍Strike of Stormhorn
+‍Vision of the Firestorm
 Spiritborn:
 
-‍Band of First Breath
-‍Hesha e Kesungi
-‍Loyalty's Mantle
-‍Peacemonger's Signet
-‍Protection of the Prime
-‍Ring of the Midnight Sun
+‍Band of First Breath ?
+‍Sunbird's Gorget ?
+Warlock:
+
+‍Cage of Madness
+‍Hands of the Worldbreaker ?
+‍Seed of Horazon
+‍Sire of Sin
 Multiple Classes:
 
-‍Endurant Faith
-‍Penitent Greaves
-‍The Butcher's Cleaver
+‍Paingorger's Gauntlets
 + Items from the General Unique Pool.
 
 The Beast in the Ice
@@ -165,61 +140,47 @@ Boss Loot Tables
 Basic Information
 Requires Torment 1 or higher.
 Activity Recommended: Complete Nightmare Dungeons
-Boss Lair Key: 1x Lair Key
+Boss Lair Key: 1x ‍Lair Key
 Element Type: Cold
 Cosmetic Reward: ‍Skull Torch and ‍Binding the Fell Steed
 
 The Glacial Fissure is located South-west of Kyovashad in the Fractured Peaks
 Barbarian:
 
-‍Ancients' Oath
-‍Hellhammer
-‍Hooves of the Mountain God
-‍Mantle of Mountain's Fury
 ‍Ring of the Ravenous
+‍The Relentless Heart
 Druid:
 
-‍Gathlen's Birthright
-‍Kilt of Blackwing
-‍Stone of Vehemen
-‍Storm's Companion
-‍Unsung Ascetic's Wraps
+‍Accord of the Wilds
+‍Airidah's Inexorable Will
+‍Malefic Crescent
 Necromancer:
 
-‍Gravebloom
-‍Indira's Memory
-‍Mutilator Plate
-‍Ring of Mendeln
-‍The Unmaker
+‍Deathless Visage
+‍Howl from Below
 Paladin:
 
-‍Bastion of Sir Matthias
 ‍Light's Rebuke
-‍Seal of the Second Trumpet
-‍Wreath of Auric Laurel
+‍Sanctis of Kethamar
 Rogue:
 
-‍Beastfall Boots
-‍Deathmask of Nirmitruq
-‍Eaglehorn
-‍Windforce
+‍Orphan Maker
+‍Saboteur's Signet
 Sorcerer:
 
-‍Gloves of the Illuminator
-‍The Oculus
+‍Gift of Frost
 ‍Starfall Coronet
-‍Strike of Stormhorn
 Spiritborn:
 
-‍Harmony of Ebewaka
-‍Ring of the Midday Hunt
+‍Protection of the Prime
 ‍Scorn of the Earth
-‍Wound Drinker
+Warlock:
+
+‍Hellhound's Sabatons
+‍Kabraxis' Will
 Multiple Classes:
 
-‍Fists of Fate
-‍Paingorger's Gauntlets
-‍Tassets of the Dawning Sky
+‍Signet of Pelghain
 + Items from the General Unique Pool.
 
 Lord Zir
@@ -227,61 +188,50 @@ Boss Loot Tables
 Basic Information
 Requires Torment 1 or higher.
 Activity Recommended: Blood Maiden in Helltide
-Boss Lair Key: 1x Lair Key
+Boss Lair Key: 1x ‍Lair Key
 Element Type: Fire
 Cosmetic Reward: ‍Diadem of the Ancient Helm Cosmetic
 
 The Darkened Way is East of Kyovashad in the Fractured Peaks
 Barbarian:
 
-‍Arreat's Bearing
-‍Chainscourged Mail
-‍Overkill
-‍Ramaladni's Magnum Opus
-‍Ugly Bastard Helm
+‍Fields of Crimson
+‍Twin Strikes
 Druid:
 
-‍Fleshrender
-‍Malefic Crescent
-‍Mjölnic Ryng
-‍Wildheart Hunger
+‍Gathlen's Birthright
+‍Unsung Ascetic's Wraps
+‍Waxing Gibbous
 Necromancer:
 
-‍Blood Artisan's Cuirass
 ‍Cruor's Embrace
-‍Kessime's Legacy
-‍Lidless Wall
 ‍Sanguivor, Blade of Zir
 Paladin:
 
-‍Cathedral's Song
-‍Red Sermon
-‍Sanctis of Kethamar
+‍Judgment of Auriel
+‍Judicant's Glaivehelm
 Rogue:
 
-‍Asheara's Khanjar
-‍Assassin's Stride
-‍Orphan Maker
-‍Pitfighter's Gull
-‍Scoundrel's Kiss
+‍Shroud of Khanduras
+‍Skyhunter
+‍The Umbracrux
 Sorcerer:
 
-‍Esadora's Overflowing Cameo
-‍Fractured Winterglass
-‍Okun's Catalyst
-‍Sidhe Bindings
+‍Fang of the Vipermagi
+‍Rimeblood
+‍Staff of Lam Esen
 Spiritborn:
 
-‍Band of First Breath
-‍Jacinth Shell
-‍Wushe Nak Pa
-‍Path of the Emissary
+‍Ring of Writhing Moon
+Warlock:
+
+‍Dirge of Airidah
+‍Elegy ?
+‍Fleshwrit Carapace
+‍Hands of the Worldbreaker ?
 Multiple Classes:
 
-‍Razorplate
-‍Temerity
-‍Vox Omnium
-‍Yen's Blessing
+‍X'Fal's Corroded Signet
 + Items from the General Unique Pool.
 
 Urivar
@@ -289,67 +239,53 @@ Boss Loot Tables
 Basic Information
 Requires Torment 1 or higher.
 Activity Recommended: Kurast Undercity
-Boss Lair Key: 1x Lair Key
+Boss Lair Key: 1x ‍Lair Key
 Element Type: Fire
 Cosmetic Reward: Unknown
 Urivar Location 1
 Urivar is located in Nahantu, near the Kichuk Waypoint.
 Barbarian:
 
-‍100,000 Steps
-‍Hooves of the Mountain God
-‍Overkill
-‍Ring of the Ravenous
-‍Twin Strikes
+‍Mantle of Mountain's Fury
+‍Unbroken Chain
 Druid:
 
-‍Earthbreaker
-‍Gathlen's Birthright
-‍Greatstaff of the Crone
-‍Malefic Crescent
-‍Rotting Lightbringer
-‍Storm's Companion
+‍Dark Howl
+‍Dolmen Stone
+‍Kilt of Blackwing
 Necromancer:
 
-‍Blood Artisan's Cuirass
-‍Bloodless Scream
-‍Ebonpiercer
 ‍Gospel of the Devotee
-‍The Unmaker
+‍Will of Rathma
 Paladin:
 
-‍Arcadia
 ‍Cathedral's Song
-‍Judicant's Glaivehelm
-‍Light's Rebuke
-‍Mantle of the Grey
+‍Herald's Morningstar
 Rogue:
 
-‍Bands of Ichorous Rose
-‍Deathmask of Nirmitruq
-‍Eyes in the Dark
-‍Scoundrel's Kiss
+‍Cassia's Grace
 ‍Windforce
-‍Word of Hakan
+‍Writhing Band of Trickery
 Sorcerer:
 
-‍Hail of Verglas
+‍Flamescar
 ‍Iceheart Brais
-‍Sidhe Bindings
-‍Strike of Stormhorn
-‍Tal Rasha's Iridescent Loop
+‍Molten Band
 Spiritborn:
 
-‍Balazan's Maxtlatl
-‍Craze of the Dead God
-‍Hesha e Kesungi
-‍Jacinth Shell
-‍Ring of the Midnight Sun
-‍Sunstained War-Crozier
+‍Band of First Breath ?
+‍Loyalty's Mantle ?
+‍Sunbird's Gorget ?
+‍Wushe Nak Pa ?
+Warlock:
+
+‍Cowl of Malefic Torment ?
+‍Infernal Homunculus
+‍The Blade of Sight Aflame
 Multiple Classes:
 
-‍Frostburn
-‍Paingorger's Gauntlets
+‍Tibault's Will ?
+‍Yen's Blessing
 + Items from the General Unique Pool.
 
 Duriel, King of Maggots
@@ -357,50 +293,50 @@ Boss Loot Tables
 Basic Information
 Requires Torment 1 or higher.
 Activity Required: Collect keys from defeating Initiate Lair Bosses
-Boss Lair Key: 1x Greater Lair Key
+Boss Lair Key: 1x ‍Greater Lair Key
 Element Type: Poison
 Cosmetic Reward: The ‍Smoldering Brimstone Mount
 
 The Gaping Crevasse to the East of Gea Kul in Kehjistan.
 Barbarian:
 
-‍Bane of Ahjad-Den
-‍Tuskhelm of Joritz the Mighty
+‍Dark Stalker's Medallion
+‍Sabre of Tsasgal
 Druid:
 
-‍Dolmen Stone
-‍Tempest Roar
+‍Fractured Runestone
+‍Greenwalker's Oath
+‍Mark of the Old Wolf
 Necromancer:
 
-‍Blood Moon Breeches
-‍The Hand of Naz
+‍The Undercrown
 Paladin:
 
-‍Argent Veil
-‍Gate of the Red Dawn
-‍Griswold's Opus
-‍Herald's Morningstar
+‍Supplication
+‍Ward of the White Dove ?
 Rogue:
 
-‍Cowl of the Nameless
-‍Death's Pavane
-‍Scoundrel's Leathers
+‍Bands of Ichorous Rose
+‍Condemnation
+‍Sea Lord's Fine Gloves
 Sorcerer:
 
 ‍Blue Rose
-‍Ophidian Iris
+‍Galvanic Azurite
+‍Staff of Endless Rage
 Spiritborn:
 
 ‍Rod of Kepeleke
-‍Sepazontec
+‍Widow's Web
+‍Wushe Nak Pa ?
+Warlock:
+
+‍Gauntlets of Sheol
+‍Rictus of Terror ?
+‍Scourge of Duriel
 Multiple Classes:
 
-‍Azurewrath
-‍Banished Lord's Talisman
-‍Crown of Lucion
-‍Godslayer Crown
-‍Soulbrand
-‍X'Fal's Corroded Signet
+‍Razorplate
 + Items from the General Unique Pool.
 
 Andariel
@@ -408,51 +344,54 @@ Boss Loot Tables
 Basic Information
 Requires Torment 1 or higher.
 Activity Required: Collect keys from defeating Initiate Lair Bosses
-Boss Lair Key: 1x Greater Lair Key
+Boss Lair Key: 1x ‍Greater Lair Key
 Element Type: All
 Cosmetic Reward: The ‍Smoldering Brimstone Mount
 
 Hanged Man's Hall to the East of Tarsarak
 Barbarian:
 
-‍Bane of Ahjad-Den
-‍Tuskhelm of Joritz the Mighty
+‍Ancients' Oath
+‍Emblem of Staalbreak
+‍Hellhammer
 Druid:
 
-‍Dolmen Stone
-‍The Basilisk
+‍Greenwalker's Signet
+‍Insatiable Fury
+‍Storm's Companion
 Necromancer:
 
-‍Black River
-‍Blood Moon Breeches
+‍Ebonpiercer
+‍Lidless Wall
 Paladin:
 
-‍Gate of the Red Dawn
-‍Herald of Zakarum
-‍Herald's Morningstar
-‍Judgment of Auriel
+‍Argent Veil
+‍Dawnfire
 Rogue:
 
-‍Cowl of the Nameless
-‍Death's Pavane
-‍The Umbracrux
+‍Assassin's Stride
+‍Beastfall Boots
+‍Deathmask of Nirmitruq
 Sorcerer:
 
-‍Blue Rose
-‍Flamescar
-‍Galvanic Azurite
+‍Drognan's Anguish
+‍Esadora's Overflowing Cameo
+‍Orsivane
 Spiritborn:
 
-‍Sepazontec
-‍Sunbird's Gorget
+‍Craze of the Dead God
+‍Protean Heart ?
+‍Ring of the Midday Hunt
+Warlock:
+
+‍Anathema of the Primes ?
+‍Elegy ?
+‍Night Terror
+‍Rictus of Terror ?
+‍Scepter of the Three
 Multiple Classes:
 
-‍Azurewrath
-‍Flickerstep
-‍Locran's Talisman
-‍Soulbrand
-‍Tibault's Will
-‍X'Fal's Corroded Signet
+‍Godslayer Crown
 + Items from the General Unique Pool.
 
 Harbinger of Hatred
@@ -460,7 +399,7 @@ Boss Loot Tables
 Basic Information
 Requires Torment 1 or higher.
 Activity Required: Collect keys from defeating Initiate Lair Bosses
-Boss Lair Key: 1x Greater Lair Key
+Boss Lair Key: 1x ‍Greater Lair Key
 Element Type: Shadow
 Cosmetic Reward: Unknown
 Harbingerof Hatred Location 1
@@ -468,42 +407,46 @@ Harbinger of Hatred is located in Nahantu, near the Kurast Docks Waypoint.
 Barbarian:
 
 ‍Bane of Ahjad-Den
-‍The Third Blade
+‍Nomad's Longing Heart
+‍Ugly Bastard Helm
 Druid:
 
-‍Tempest Roar
-‍The Basilisk
+‍Fleshrender
+‍Ifeh's Dire Totem
+‍Might of the Ursine
 Necromancer:
 
-‍Black River
-‍The Hand of Naz
+‍Blood Wake
+‍Pact of Bone
+‍The Gloom Ward
 Paladin:
 
-‍Argent Veil
-‍Griswold's Opus
-‍Herald of Zakarum
-‍Judgment of Auriel
+‍Gate of the Red Dawn
+‍Mantle of the Grey
 Rogue:
 
-‍Scoundrel's Leathers
-‍The Umbracrux
+‍Etna's Lost Dagger
+‍Scoundrel's Leathers ?
+‍Shrouded Gift
 Sorcerer:
 
-‍Flamescar
-‍Ophidian Iris
-‍Galvanic Azurite
+‍Flameweaver
+‍Sidhe Bindings
+‍Tal Rasha's Iridescent Loop
 Spiritborn:
 
-‍Rod of Kepeleke
-‍Sunbird's Gorget
+‍Protean Heart ?
+‍Sepazontec
+Warlock:
+
+‍Anathema of the Primes ?
+‍Bridle of Tor'Baalos
+‍Litany of Sable ?
+‍Spine of Tathamet
+‍The Fecund Seal
 Multiple Classes:
 
-‍Banished Lord's Talisman
-‍Crown of Lucion
-‍Flickerstep
-‍Godslayer Crown
-‍Locran's Talisman
-‍Tibault's Will
+‍Temerity
 + Items from the General Unique Pool.
 
 The Butcher
@@ -511,18 +454,56 @@ Boss Loot Tables
 Basic Information
 Requires Torment 1 or higher.
 Activity Required: Collect keys from defeating Initiate Lair Bosses
-Boss Lair Key: 1x Greater Lair Key
-Element Type: Shadow
+Boss Lair Key: 1x ‍Greater Lair Key
+Element Type: Fire/Physical
 Cosmetic Reward: Unknown
 Butcher Gea Kul 272 X 506
 Harbinger of Hatred is located in Nahantu, near the Kurast Docks Waypoint.
-The Butcher drops a dedicated set of Uniques listed in the table below, along with items from the General Unique Pool.
+Barbarian:
 
-All Classes	‍Blood-Mad Idol
-All Classes	‍Wendigo Brand
-All Classes	‍Wyrdskin
-Druid, Necromancer, Rogue, Sorcerer	‍Rustbitten Dirk
-Barbarian, Druid, Necromancer, Paladin	‍Thousand-Eye Reaver
+‍Chainscourged Mail
+‍Rage of Harrogath
+‍Ramaladni's Magnum Opus
+‍Ring of Red Furor
+Druid:
+
+‍Fury of the Wilds
+‍Heart of Azgar
+‍Purified Lightbringer
+Necromancer:
+
+‍Mace of King Leoric
+‍Red Blessing
+‍Vengeful Sinew
+Paladin:
+
+‍March of the Stalwart Soul
+‍Red Sermon
+Rogue:
+
+‍Cowl of the Nameless
+‍Fist of the Iron Rose ?
+‍Scoundrel's Kiss
+Sorcerer:
+
+‍Emberfury
+‍Shanar's Resonance
+‍Staff of Zerae
+Spiritborn:
+
+‍Hesha e Kesungi
+‍Path of the Emissary
+Warlock:
+
+‍Hellbrand Signet
+‍Lurid Pact
+‍Moloch's Beating Flame
+‍Nails of the Gore-Crowned
+Multiple Classes:
+
+‍The Butcher's Cleaver
++ Items from the General Unique Pool.
+
 Astaroth
 Boss Loot Tables
 Basic Information
@@ -533,7 +514,48 @@ Element Type: Fire
 Cosmetic Reward: Unknown
 Escalation Sigil 444 X 506
 Astaroth is located at the end of Escalating Nightmare Dungeons.
-Dedicated Unique drops TBD.
+Barbarian:
+
+‍Battle Trance ?
+‍Hooves of the Mountain God
+‍The Third Blade
+Druid:
+
+‍Dirge of Airidah
+‍Mad Wolf's Glee
+‍Wildheart Hunger
+Necromancer:
+
+TBD
+Paladin:
+
+‍Griswold's Opus
+‍Herald of Zakarum
+Rogue:
+
+‍Asheara's Khanjar ?
+‍Gladiator's Triumph ?
+Sorcerer:
+
+‍Esu's Heirloom
+‍Fractured Winterglass
+‍Hail of Verglas
+Spiritborn:
+
+‍Echo of Kwatli
+‍Ring of the Midnight Sun
+Warlock:
+
+‍Bindings of Attrition
+‍Cowl of Malefic Torment ?
+‍Footfalls of the Waning World
+‍Hecaton Chasm
+‍Litany of Sable ?
+Multiple Classes:
+
+‍Crown of Lucion
+‍Endurant Faith ?
++ Items from the General Unique Pool.
 
 Bartuc
 Boss Loot Tables
@@ -545,7 +567,49 @@ Element Type: Fire and Shadow
 Cosmetic Reward: Unknown
 Infernal Hordes Map Entrance 381 X 506
 Bartuc resides in Infernal Hordes, found in Kehjistan, near the Yshari Sanctum Waypoint.
-Dedicated Unique drops TBD.
+Barbarian:
+
+‍Arreat's Bearing
+‍The Open Eye of Gorgorra
+‍Tuskhelm of Joritz the Mighty
+Druid:
+
+‍Earthbreaker
+‍Khamsin Steppewalkers
+‍Mjölnic Ryng
+Necromancer:
+
+‍Gravewalker's Hand
+‍Omen of Pain
+‍The Unmaker
+Paladin:
+
+TBD
+Rogue:
+
+‍Grasp of Shadow ?
+‍Misericorde ?
+‍Word of Hakan ?
+Sorcerer:
+
+‍Axial Conduit
+‍Ophidian Iris
+‍Raiment of the Infinite
+Spiritborn:
+
+‍Harmony of Ebewaka
+‍Loyalty's Mantle ?
+Warlock:
+
+‍Eye of Baal
+‍Hand of Apotheosis
+‍Sashes of the Wretched
+‍The Hemat Stone
+Multiple Classes:
+
+‍Azurewrath
+‍Flickerstep ?
++ Items from the General Unique Pool.
 
 Belial, Lord of Lies
 Boss Loot Tables
@@ -568,18 +632,21 @@ Most endgame builds use one of these items. Thankfully, all bosses mentioned abo
 
 Check out our Unique and Mythic Unique Guide for more details and more ways to obtain these truly Mythic items.
 Mythic Item Glow 451 X 506
-‍Shattered Vow (All)
-‍Shroud of False Death (All)
-‍Ring of Starless Skies (All)
+‍Andariel's Visage (All)
+‍Ahavarion, Spear of Lycander (Druid, Sorc)
+‍Doombringer (All but Spiritborn)
+‍El'Druin, Sword of Justice All but Spiritborn)
+‍Harlequin Crest (All)
 ‍Heir of Perdition (All)
 ‍Melted Heart of Selig (All)
-‍Andariel's Visage (All)
-‍Harlequin Crest (All)
-‍Tyrael's Might (All)
-‍Doombringer (Barb, Druid, Necro, Rogue, Sorc)
-‍The Grandfather (Barb, Necro)
-‍Ahavarion, Spear of Lycander (Druid, Sorc)
+
 ‍Nesekem, the Herald (Spiritborn)
+‍Ring of Starless Skies (All)
+‍Shattered Vow (Barb, Druid, Spiritborn)
+‍Shroud of False Death (All)
+‍The Grandfather (Barb, Necro, Paladin, Warlock)
+‍Tyrael's Might (All)
+
 Summary
 Each Boss has a specific loot table with higher chances of dropping certain Unique items.
 Mythic Unique items can be acquired from all bosses.

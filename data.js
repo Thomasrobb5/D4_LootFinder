@@ -4,690 +4,725 @@ const lootData = {
     {
         "id": "echo_of_varshan",
         "name": "Echo of Varshan",
-        "summon": "1x Lair Key",
-        "location": "Malignant Burrow (Hawezar)",
+        "summon": "1x ‍Lair Key",
+        "location": "Malignant Burrow is located near the Tree of Whispers Waypoint in Hawezar",
         "difficulty": "Torment 1+",
         "element": "Shadow / Physical",
         "cosmetic": "Flesh-weld Rod Trophy",
         "loot": {
             "Barbarian": [
                 "100,000 Steps",
-                "Fields of Crimson",
-                "Gohr's Devastating Grips",
-                "Ring of Red Furor",
-                "Sabre of Tsasgal"
+                "Overkill"
             ],
             "Druid": [
-                "Airidah's Inexorable Will",
+                "Autumnal Crown",
                 "Greatstaff of the Crone",
-                "Mad Wolf's Glee",
-                "Rotting Lightbringer",
-                "Vasily's Prayer"
+                "Stone of Vehemen"
             ],
             "Necromancer": [
-                "Bloodless Scream",
-                "Deathless Visage",
-                "Deathspeaker's Pendant",
-                "Gospel of the Devotee",
-                "Ring of the Sacrilegious Soul"
+                "Hangman's Hand",
+                "The Hand of Naz"
             ],
             "Paladin": [
-                "Arcadia",
-                "Dawnfire",
-                "Sunbrand",
-                "Ward of the White Dove"
+                "Seal of the Second Trumpet",
+                "Ward of the White Dove",
+                "Wreath of Auric Laurel"
             ],
             "Rogue": [
-                "Condemnation",
-                "Eyes in the Dark",
-                "Skyhunter",
-                "Writhing Band of Trickery"
+                "Death's Pavane",
+                "Eaglehorn",
+                "Pitfighter's Gull"
             ],
             "Sorcerer": [
-                "Esu's Heirloom",
-                "Orsivane",
-                "Raiment of the Infinite",
-                "Staff of Endless Rage",
-                "Tal Rasha's Iridescent Loop"
+                "Levin Grasp",
+                "Onyx Soul",
+                "Raiment of the Sea",
+                "Vox Omnium"
             ],
             "Spiritborn": [
                 "Balazan's Maxtlatl",
-                "Craze of the Dead God",
-                "Ring of Writhing Moon",
                 "Sunstained War-Crozier"
             ],
+            "Warlock": [
+                "Ae'grom's Schism",
+                "Seal of the Ophanim",
+                "Thrice-Woven Nightmare"
+            ],
             "All Classes": [
-                "Frostburn",
-                "Mother's Embrace",
-                "Rakanoth's Wake",
-                "Shard of Verathiel"
+                "Shard of Verathiel",
+                "Tibault's Will"
             ],
             "Mythic Uniques": [
-                "Shattered Vow",
-                "Shroud of False Death",
-                "Ring of Starless Skies",
+                "Andariel's Visage",
+                "Ahavarion, Spear of Lycander",
+                "Doombringer",
+                "El'Druin, Sword of Justice All but Spiritborn)",
+                "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
-                "Andariel's Visage",
-                "Harlequin Crest",
-                "Tyrael's Might",
-                "Doombringer",
+                "Nesekem, the Herald",
+                "Ring of Starless Skies",
+                "Shattered Vow",
+                "Shroud of False Death",
                 "The Grandfather",
-                "Ahavarion, Spear of Lycander",
-                "Nesekem, the Herald"
+                "Tyrael's Might"
             ]
         }
     },
     {
         "id": "grigoire_the_galvanic_saint",
         "name": "Grigoire, The Galvanic Saint",
-        "summon": "1x Lair Key",
-        "location": "Hall of the Penitent (Dry Steppes)",
+        "summon": "1x ‍Lair Key",
+        "location": "Hall of the Penitent is located South of Ked Bardu in the Dry Steppes",
         "difficulty": "Torment 1+",
         "element": "Lightning",
         "cosmetic": "Demonbinder Mount Armor Cosmetic",
         "loot": {
             "Barbarian": [
-                "Battle Trance",
-                "Rage of Harrogath",
-                "Twin Strikes",
-                "Unbroken Chain"
+                "Gohr's Devastating Grips",
+                "Might of Qual-Kehk"
             ],
             "Druid": [
-                "Earthbreaker",
                 "Hunter's Zenith",
-                "Insatiable Fury",
-                "Khamsin Steppewalkers",
-                "Waxing Gibbous"
+                "The Basilisk",
+                "Will of Stone"
             ],
             "Necromancer": [
-                "Ebonpiercer",
-                "Greaves of the Empty Tomb",
-                "Howl from Below",
-                "Path of Trag'Oul",
-                "The Mortacrux"
+                "Deathgrip"
             ],
             "Paladin": [
-                "Mantle of the Grey",
-                "March of the Stalwart Soul",
-                "Sundered Night",
-                "Supplication"
+                "Bastion of Sir Matthias",
+                "Sunbrand"
             ],
             "Rogue": [
-                "Bands of Ichorous Rose",
-                "Grasp of Shadow",
-                "Saboteur's Signet",
-                "Shroud of Khanduras",
-                "Word of Hakan"
+                "Desperate March",
+                "The Maestro"
             ],
             "Sorcerer": [
-                "Axial Conduit",
-                "Flameweaver",
-                "Hail of Verglas",
-                "Iceheart Brais",
-                "Staff of Lam Esen"
+                "Strike of Stormhorn",
+                "Vision of the Firestorm"
             ],
             "Spiritborn": [
                 "Band of First Breath",
-                "Hesha e Kesungi",
-                "Loyalty's Mantle",
-                "Peacemonger's Signet",
-                "Protection of the Prime",
-                "Ring of the Midnight Sun"
+                "Sunbird's Gorget"
+            ],
+            "Warlock": [
+                "Cage of Madness",
+                "Hands of the Worldbreaker",
+                "Seed of Horazon",
+                "Sire of Sin"
             ],
             "All Classes": [
-                "Endurant Faith",
-                "Penitent Greaves",
-                "The Butcher's Cleaver"
+                "Paingorger's Gauntlets"
             ],
             "Mythic Uniques": [
-                "Shattered Vow",
-                "Shroud of False Death",
-                "Ring of Starless Skies",
+                "Andariel's Visage",
+                "Ahavarion, Spear of Lycander",
+                "Doombringer",
+                "El'Druin, Sword of Justice All but Spiritborn)",
+                "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
-                "Andariel's Visage",
-                "Harlequin Crest",
-                "Tyrael's Might",
-                "Doombringer",
+                "Nesekem, the Herald",
+                "Ring of Starless Skies",
+                "Shattered Vow",
+                "Shroud of False Death",
                 "The Grandfather",
-                "Ahavarion, Spear of Lycander",
-                "Nesekem, the Herald"
+                "Tyrael's Might"
             ]
         }
     },
     {
         "id": "the_beast_in_the_ice",
         "name": "The Beast in the Ice",
-        "summon": "1x Lair Key",
-        "location": "Glacial Fissure (Fractured Peaks)",
+        "summon": "1x ‍Lair Key",
+        "location": "Glacial Fissure is located South-west of Kyovashad in the Fractured Peaks",
         "difficulty": "Torment 1+",
         "element": "Cold",
         "cosmetic": "Skull Torch and Binding the Fell Steed",
         "loot": {
             "Barbarian": [
-                "Ancients' Oath",
-                "Hellhammer",
-                "Hooves of the Mountain God",
-                "Mantle of Mountain's Fury",
-                "Ring of the Ravenous"
+                "Ring of the Ravenous",
+                "The Relentless Heart"
             ],
             "Druid": [
-                "Gathlen's Birthright",
-                "Kilt of Blackwing",
-                "Stone of Vehemen",
-                "Storm's Companion",
-                "Unsung Ascetic's Wraps"
+                "Accord of the Wilds",
+                "Airidah's Inexorable Will",
+                "Malefic Crescent"
             ],
             "Necromancer": [
-                "Gravebloom",
-                "Indira's Memory",
-                "Mutilator Plate",
-                "Ring of Mendeln",
-                "The Unmaker"
+                "Deathless Visage",
+                "Howl from Below"
             ],
             "Paladin": [
-                "Bastion of Sir Matthias",
                 "Light's Rebuke",
-                "Seal of the Second Trumpet",
-                "Wreath of Auric Laurel"
+                "Sanctis of Kethamar"
             ],
             "Rogue": [
-                "Beastfall Boots",
-                "Deathmask of Nirmitruq",
-                "Eaglehorn",
-                "Windforce"
+                "Orphan Maker",
+                "Saboteur's Signet"
             ],
             "Sorcerer": [
-                "Gloves of the Illuminator",
-                "The Oculus",
-                "Starfall Coronet",
-                "Strike of Stormhorn"
+                "Gift of Frost",
+                "Starfall Coronet"
             ],
             "Spiritborn": [
-                "Harmony of Ebewaka",
-                "Ring of the Midday Hunt",
-                "Scorn of the Earth",
-                "Wound Drinker"
+                "Protection of the Prime",
+                "Scorn of the Earth"
+            ],
+            "Warlock": [
+                "Hellhound's Sabatons",
+                "Kabraxis' Will"
             ],
             "All Classes": [
-                "Fists of Fate",
-                "Paingorger's Gauntlets",
-                "Tassets of the Dawning Sky"
+                "Signet of Pelghain"
             ],
             "Mythic Uniques": [
-                "Shattered Vow",
-                "Shroud of False Death",
-                "Ring of Starless Skies",
+                "Andariel's Visage",
+                "Ahavarion, Spear of Lycander",
+                "Doombringer",
+                "El'Druin, Sword of Justice All but Spiritborn)",
+                "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
-                "Andariel's Visage",
-                "Harlequin Crest",
-                "Tyrael's Might",
-                "Doombringer",
+                "Nesekem, the Herald",
+                "Ring of Starless Skies",
+                "Shattered Vow",
+                "Shroud of False Death",
                 "The Grandfather",
-                "Ahavarion, Spear of Lycander",
-                "Nesekem, the Herald"
+                "Tyrael's Might"
             ]
         }
     },
     {
         "id": "lord_zir",
         "name": "Lord Zir",
-        "summon": "1x Lair Key",
-        "location": "The Darkened Way (Fractured Peaks)",
+        "summon": "1x ‍Lair Key",
+        "location": "Darkened Way is East of Kyovashad in the Fractured Peaks",
         "difficulty": "Torment 1+",
         "element": "Fire",
         "cosmetic": "Diadem of the Ancient Helm Cosmetic",
         "loot": {
             "Barbarian": [
-                "Arreat's Bearing",
-                "Chainscourged Mail",
-                "Overkill",
-                "Ramaladni's Magnum Opus",
-                "Ugly Bastard Helm"
+                "Fields of Crimson",
+                "Twin Strikes"
             ],
             "Druid": [
-                "Fleshrender",
-                "Malefic Crescent",
-                "Mjölnic Ryng",
-                "Wildheart Hunger"
+                "Gathlen's Birthright",
+                "Unsung Ascetic's Wraps",
+                "Waxing Gibbous"
             ],
             "Necromancer": [
-                "Blood Artisan's Cuirass",
                 "Cruor's Embrace",
-                "Kessime's Legacy",
-                "Lidless Wall",
                 "Sanguivor, Blade of Zir"
             ],
             "Paladin": [
-                "Cathedral's Song",
-                "Red Sermon",
-                "Sanctis of Kethamar"
+                "Judgment of Auriel",
+                "Judicant's Glaivehelm"
             ],
             "Rogue": [
-                "Asheara's Khanjar",
-                "Assassin's Stride",
-                "Orphan Maker",
-                "Pitfighter's Gull",
-                "Scoundrel's Kiss"
+                "Shroud of Khanduras",
+                "Skyhunter",
+                "The Umbracrux"
             ],
             "Sorcerer": [
-                "Esadora's Overflowing Cameo",
-                "Fractured Winterglass",
-                "Okun's Catalyst",
-                "Sidhe Bindings"
+                "Fang of the Vipermagi",
+                "Rimeblood",
+                "Staff of Lam Esen"
             ],
             "Spiritborn": [
-                "Band of First Breath",
-                "Jacinth Shell",
-                "Wushe Nak Pa",
-                "Path of the Emissary"
+                "Ring of Writhing Moon"
+            ],
+            "Warlock": [
+                "Dirge of Airidah",
+                "Elegy",
+                "Fleshwrit Carapace",
+                "Hands of the Worldbreaker"
             ],
             "All Classes": [
-                "Razorplate",
-                "Temerity",
-                "Vox Omnium",
-                "Yen's Blessing"
+                "X'Fal's Corroded Signet"
             ],
             "Mythic Uniques": [
-                "Shattered Vow",
-                "Shroud of False Death",
-                "Ring of Starless Skies",
+                "Andariel's Visage",
+                "Ahavarion, Spear of Lycander",
+                "Doombringer",
+                "El'Druin, Sword of Justice All but Spiritborn)",
+                "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
-                "Andariel's Visage",
-                "Harlequin Crest",
-                "Tyrael's Might",
-                "Doombringer",
+                "Nesekem, the Herald",
+                "Ring of Starless Skies",
+                "Shattered Vow",
+                "Shroud of False Death",
                 "The Grandfather",
-                "Ahavarion, Spear of Lycander",
-                "Nesekem, the Herald"
+                "Tyrael's Might"
             ]
         }
     },
     {
         "id": "urivar",
         "name": "Urivar",
-        "summon": "1x Lair Key",
-        "location": "Nahantu (Near Kichuk Waypoint)",
+        "summon": "1x ‍Lair Key",
+        "location": "Urivarin Nahantu, near the Kichuk Waypoint.",
         "difficulty": "Torment 1+",
         "element": "Fire",
         "cosmetic": "Unknown",
         "loot": {
             "Barbarian": [
-                "100,000 Steps",
-                "Hooves of the Mountain God",
-                "Overkill",
-                "Ring of the Ravenous",
-                "Twin Strikes"
+                "Mantle of Mountain's Fury",
+                "Unbroken Chain"
             ],
             "Druid": [
-                "Earthbreaker",
-                "Gathlen's Birthright",
-                "Greatstaff of the Crone",
-                "Malefic Crescent",
-                "Rotting Lightbringer",
-                "Storm's Companion"
+                "Dark Howl",
+                "Dolmen Stone",
+                "Kilt of Blackwing"
             ],
             "Necromancer": [
-                "Blood Artisan's Cuirass",
-                "Bloodless Scream",
-                "Ebonpiercer",
                 "Gospel of the Devotee",
-                "The Unmaker"
+                "Will of Rathma"
             ],
             "Paladin": [
-                "Arcadia",
                 "Cathedral's Song",
-                "Judicant's Glaivehelm",
-                "Light's Rebuke",
-                "Mantle of the Grey"
+                "Herald's Morningstar"
             ],
             "Rogue": [
-                "Bands of Ichorous Rose",
-                "Deathmask of Nirmitruq",
-                "Eyes in the Dark",
-                "Scoundrel's Kiss",
+                "Cassia's Grace",
                 "Windforce",
-                "Word of Hakan"
+                "Writhing Band of Trickery"
             ],
             "Sorcerer": [
-                "Hail of Verglas",
+                "Flamescar",
                 "Iceheart Brais",
-                "Sidhe Bindings",
-                "Strike of Stormhorn",
-                "Tal Rasha's Iridescent Loop"
+                "Molten Band"
             ],
             "Spiritborn": [
-                "Balazan's Maxtlatl",
-                "Craze of the Dead God",
-                "Hesha e Kesungi",
-                "Jacinth Shell",
-                "Ring of the Midnight Sun",
-                "Sunstained War-Crozier"
+                "Band of First Breath",
+                "Loyalty's Mantle",
+                "Sunbird's Gorget",
+                "Wushe Nak Pa"
+            ],
+            "Warlock": [
+                "Cowl of Malefic Torment",
+                "Infernal Homunculus",
+                "The Blade of Sight Aflame"
             ],
             "All Classes": [
-                "Frostburn",
-                "Paingorger's Gauntlets"
+                "Tibault's Will",
+                "Yen's Blessing"
             ],
             "Mythic Uniques": [
-                "Shattered Vow",
-                "Shroud of False Death",
-                "Ring of Starless Skies",
+                "Andariel's Visage",
+                "Ahavarion, Spear of Lycander",
+                "Doombringer",
+                "El'Druin, Sword of Justice All but Spiritborn)",
+                "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
-                "Andariel's Visage",
-                "Harlequin Crest",
-                "Tyrael's Might",
-                "Doombringer",
+                "Nesekem, the Herald",
+                "Ring of Starless Skies",
+                "Shattered Vow",
+                "Shroud of False Death",
                 "The Grandfather",
-                "Ahavarion, Spear of Lycander",
-                "Nesekem, the Herald"
+                "Tyrael's Might"
             ]
         }
     },
     {
         "id": "duriel_king_of_maggots",
         "name": "Duriel, King of Maggots",
-        "summon": "1x Greater Lair Key",
-        "location": "Gaping Crevasse (Kehjistan)",
+        "summon": "1x ‍Greater Lair Key",
+        "location": "Gaping Crevasse to the East of Gea Kul in Kehjistan.",
         "difficulty": "Torment 1+",
         "element": "Poison",
         "cosmetic": "The Smoldering Brimstone Mount",
         "loot": {
             "Barbarian": [
-                "Bane of Ahjad-Den",
-                "Tuskhelm of Joritz the Mighty"
+                "Dark Stalker's Medallion",
+                "Sabre of Tsasgal"
             ],
             "Druid": [
-                "Dolmen Stone",
-                "Tempest Roar"
+                "Fractured Runestone",
+                "Greenwalker's Oath",
+                "Mark of the Old Wolf"
             ],
             "Necromancer": [
-                "Blood Moon Breeches",
-                "The Hand of Naz"
+                "The Undercrown"
             ],
             "Paladin": [
-                "Argent Veil",
-                "Gate of the Red Dawn",
-                "Griswold's Opus",
-                "Herald's Morningstar"
+                "Supplication",
+                "Ward of the White Dove"
             ],
             "Rogue": [
-                "Cowl of the Nameless",
-                "Death's Pavane",
-                "Scoundrel's Leathers"
+                "Bands of Ichorous Rose",
+                "Condemnation",
+                "Sea Lord's Fine Gloves"
             ],
             "Sorcerer": [
                 "Blue Rose",
-                "Ophidian Iris"
+                "Galvanic Azurite",
+                "Staff of Endless Rage"
             ],
             "Spiritborn": [
                 "Rod of Kepeleke",
-                "Sepazontec"
+                "Widow's Web",
+                "Wushe Nak Pa"
+            ],
+            "Warlock": [
+                "Gauntlets of Sheol",
+                "Rictus of Terror",
+                "Scourge of Duriel"
             ],
             "All Classes": [
-                "Azurewrath",
-                "Banished Lord's Talisman",
-                "Crown of Lucion",
-                "Godslayer Crown",
-                "Soulbrand",
-                "X'Fal's Corroded Signet"
+                "Razorplate"
             ],
             "Mythic Uniques": [
-                "Shattered Vow",
-                "Shroud of False Death",
-                "Ring of Starless Skies",
+                "Andariel's Visage",
+                "Ahavarion, Spear of Lycander",
+                "Doombringer",
+                "El'Druin, Sword of Justice All but Spiritborn)",
+                "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
-                "Andariel's Visage",
-                "Harlequin Crest",
-                "Tyrael's Might",
-                "Doombringer",
+                "Nesekem, the Herald",
+                "Ring of Starless Skies",
+                "Shattered Vow",
+                "Shroud of False Death",
                 "The Grandfather",
-                "Ahavarion, Spear of Lycander",
-                "Nesekem, the Herald"
+                "Tyrael's Might"
             ]
         }
     },
     {
         "id": "andariel",
         "name": "Andariel",
-        "summon": "1x Greater Lair Key",
-        "location": "Hanged Man's Hall (Kehjistan)",
+        "summon": "1x ‍Greater Lair Key",
+        "location": "Hanged Man's Hall to the East of Tarsarak",
         "difficulty": "Torment 1+",
         "element": "All",
         "cosmetic": "The Smoldering Brimstone Mount",
         "loot": {
             "Barbarian": [
-                "Bane of Ahjad-Den",
-                "Tuskhelm of Joritz the Mighty"
+                "Ancients' Oath",
+                "Emblem of Staalbreak",
+                "Hellhammer"
             ],
             "Druid": [
-                "Dolmen Stone",
-                "The Basilisk"
+                "Greenwalker's Signet",
+                "Insatiable Fury",
+                "Storm's Companion"
             ],
             "Necromancer": [
-                "Black River",
-                "Blood Moon Breeches"
+                "Ebonpiercer",
+                "Lidless Wall"
             ],
             "Paladin": [
-                "Gate of the Red Dawn",
-                "Herald of Zakarum",
-                "Herald's Morningstar",
-                "Judgment of Auriel"
+                "Argent Veil",
+                "Dawnfire"
             ],
             "Rogue": [
-                "Cowl of the Nameless",
-                "Death's Pavane",
-                "The Umbracrux"
+                "Assassin's Stride",
+                "Beastfall Boots",
+                "Deathmask of Nirmitruq"
             ],
             "Sorcerer": [
-                "Blue Rose",
-                "Flamescar",
-                "Galvanic Azurite"
+                "Drognan's Anguish",
+                "Esadora's Overflowing Cameo",
+                "Orsivane"
             ],
             "Spiritborn": [
-                "Sepazontec",
-                "Sunbird's Gorget"
+                "Craze of the Dead God",
+                "Protean Heart",
+                "Ring of the Midday Hunt"
+            ],
+            "Warlock": [
+                "Anathema of the Primes",
+                "Elegy",
+                "Night Terror",
+                "Rictus of Terror",
+                "Scepter of the Three"
             ],
             "All Classes": [
-                "Azurewrath",
-                "Flickerstep",
-                "Locran's Talisman",
-                "Soulbrand",
-                "Tibault's Will",
-                "X'Fal's Corroded Signet"
+                "Godslayer Crown"
             ],
             "Mythic Uniques": [
-                "Shattered Vow",
-                "Shroud of False Death",
-                "Ring of Starless Skies",
+                "Andariel's Visage",
+                "Ahavarion, Spear of Lycander",
+                "Doombringer",
+                "El'Druin, Sword of Justice All but Spiritborn)",
+                "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
-                "Andariel's Visage",
-                "Harlequin Crest",
-                "Tyrael's Might",
-                "Doombringer",
+                "Nesekem, the Herald",
+                "Ring of Starless Skies",
+                "Shattered Vow",
+                "Shroud of False Death",
                 "The Grandfather",
-                "Ahavarion, Spear of Lycander",
-                "Nesekem, the Herald"
+                "Tyrael's Might"
             ]
         }
     },
     {
         "id": "harbinger_of_hatred",
         "name": "Harbinger of Hatred",
-        "summon": "1x Greater Lair Key",
-        "location": "Nahantu (Near Kurast Docks Waypoint)",
+        "summon": "1x ‍Greater Lair Key",
+        "location": "Harbinger of Hatredin Nahantu, near the Kurast Docks Waypoint.",
         "difficulty": "Torment 1+",
         "element": "Shadow",
         "cosmetic": "Unknown",
         "loot": {
             "Barbarian": [
                 "Bane of Ahjad-Den",
-                "The Third Blade"
+                "Nomad's Longing Heart",
+                "Ugly Bastard Helm"
             ],
             "Druid": [
-                "Tempest Roar",
-                "The Basilisk"
+                "Fleshrender",
+                "Ifeh's Dire Totem",
+                "Might of the Ursine"
             ],
             "Necromancer": [
-                "Black River",
-                "The Hand of Naz"
+                "Blood Wake",
+                "Pact of Bone",
+                "The Gloom Ward"
             ],
             "Paladin": [
-                "Argent Veil",
-                "Griswold's Opus",
-                "Herald of Zakarum",
-                "Judgment of Auriel"
+                "Gate of the Red Dawn",
+                "Mantle of the Grey"
             ],
             "Rogue": [
+                "Etna's Lost Dagger",
                 "Scoundrel's Leathers",
-                "The Umbracrux"
+                "Shrouded Gift"
             ],
             "Sorcerer": [
-                "Flamescar",
-                "Ophidian Iris",
-                "Galvanic Azurite"
+                "Flameweaver",
+                "Sidhe Bindings",
+                "Tal Rasha's Iridescent Loop"
             ],
             "Spiritborn": [
-                "Rod of Kepeleke",
-                "Sunbird's Gorget"
+                "Protean Heart",
+                "Sepazontec"
+            ],
+            "Warlock": [
+                "Anathema of the Primes",
+                "Bridle of Tor'Baalos",
+                "Litany of Sable",
+                "Spine of Tathamet",
+                "The Fecund Seal"
             ],
             "All Classes": [
-                "Banished Lord's Talisman",
-                "Crown of Lucion",
-                "Flickerstep",
-                "Godslayer Crown",
-                "Locran's Talisman",
-                "Tibault's Will"
+                "Temerity"
             ],
             "Mythic Uniques": [
-                "Shattered Vow",
-                "Shroud of False Death",
-                "Ring of Starless Skies",
+                "Andariel's Visage",
+                "Ahavarion, Spear of Lycander",
+                "Doombringer",
+                "El'Druin, Sword of Justice All but Spiritborn)",
+                "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
-                "Andariel's Visage",
-                "Harlequin Crest",
-                "Tyrael's Might",
-                "Doombringer",
+                "Nesekem, the Herald",
+                "Ring of Starless Skies",
+                "Shattered Vow",
+                "Shroud of False Death",
                 "The Grandfather",
-                "Ahavarion, Spear of Lycander",
-                "Nesekem, the Herald"
+                "Tyrael's Might"
             ]
         }
     },
     {
         "id": "the_butcher",
         "name": "The Butcher",
-        "summon": "1x Greater Lair Key",
-        "location": "Anywhere",
+        "summon": "1x ‍Greater Lair Key",
+        "location": "Harbinger of Hatredin Nahantu, near the Kurast Docks Waypoint.",
         "difficulty": "Torment 1+",
-        "element": "Shadow",
+        "element": "Fire/Physical",
         "cosmetic": "Unknown",
         "loot": {
-            "All Classes": [
-                "Blood-Mad Idol",
-                "Wendigo Brand",
-                "Wyrdskin"
-            ],
-            "Druid, Necromancer, Rogue, Sorcerer": [
-                "Rustbitten Dirk"
-            ],
-            "Barbarian, Druid, Necromancer, Paladin": [
-                "Thousand-Eye Reaver"
-            ],
+            "Barbarian": [],
+            "Druid": [],
+            "Necromancer": [],
+            "Paladin": [],
+            "Rogue": [],
+            "Sorcerer": [],
+            "Spiritborn": [],
+            "Warlock": [],
+            "All Classes": [],
             "Mythic Uniques": [
-                "Shattered Vow",
-                "Shroud of False Death",
-                "Ring of Starless Skies",
+                "Andariel's Visage",
+                "Ahavarion, Spear of Lycander",
+                "Doombringer",
+                "El'Druin, Sword of Justice All but Spiritborn)",
+                "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
-                "Andariel's Visage",
-                "Harlequin Crest",
-                "Tyrael's Might",
-                "Doombringer",
+                "Nesekem, the Herald",
+                "Ring of Starless Skies",
+                "Shattered Vow",
+                "Shroud of False Death",
                 "The Grandfather",
-                "Ahavarion, Spear of Lycander",
-                "Nesekem, the Herald"
+                "Tyrael's Might"
             ]
         }
     },
     {
         "id": "astaroth",
         "name": "Astaroth",
-        "summon": "1x Escalation Sigil",
-        "location": "Escalating Nightmare Dungeons",
+        "summon": "1x ‍Escalation Sigil",
+        "location": "Astarothat the end of Escalating Nightmare Dungeons.",
         "difficulty": "Torment 1+",
         "element": "Fire",
         "cosmetic": "Unknown",
         "loot": {
+            "Barbarian": [
+                "Battle Trance",
+                "Hooves of the Mountain God",
+                "The Third Blade"
+            ],
+            "Druid": [
+                "Dirge of Airidah",
+                "Mad Wolf's Glee",
+                "Wildheart Hunger"
+            ],
+            "Necromancer": [
+                "TBD"
+            ],
+            "Paladin": [
+                "Griswold's Opus",
+                "Herald of Zakarum"
+            ],
+            "Rogue": [
+                "Asheara's Khanjar",
+                "Gladiator's Triumph"
+            ],
+            "Sorcerer": [
+                "Esu's Heirloom",
+                "Fractured Winterglass",
+                "Hail of Verglas"
+            ],
+            "Spiritborn": [
+                "Echo of Kwatli",
+                "Ring of the Midnight Sun"
+            ],
+            "Warlock": [
+                "Bindings of Attrition",
+                "Cowl of Malefic Torment",
+                "Footfalls of the Waning World",
+                "Hecaton Chasm",
+                "Litany of Sable"
+            ],
+            "All Classes": [
+                "Crown of Lucion",
+                "Endurant Faith"
+            ],
             "Mythic Uniques": [
-                "Shattered Vow",
-                "Shroud of False Death",
-                "Ring of Starless Skies",
+                "Andariel's Visage",
+                "Ahavarion, Spear of Lycander",
+                "Doombringer",
+                "El'Druin, Sword of Justice All but Spiritborn)",
+                "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
-                "Andariel's Visage",
-                "Harlequin Crest",
-                "Tyrael's Might",
-                "Doombringer",
+                "Nesekem, the Herald",
+                "Ring of Starless Skies",
+                "Shattered Vow",
+                "Shroud of False Death",
                 "The Grandfather",
-                "Ahavarion, Spear of Lycander",
-                "Nesekem, the Herald"
+                "Tyrael's Might"
             ]
         }
     },
     {
         "id": "bartuc",
         "name": "Bartuc",
-        "summon": "1x Infernal Hordes Compass",
-        "location": "Infernal Hordes (Kehjistan)",
+        "summon": "1x ‍Infernal Hordes Compass",
+        "location": "BartucInfernal Hordes, found in Kehjistan, near the Yshari Sanctum Waypoint.",
         "difficulty": "Torment 1+",
         "element": "Fire and Shadow",
         "cosmetic": "Unknown",
         "loot": {
+            "Barbarian": [
+                "Arreat's Bearing",
+                "The Open Eye of Gorgorra",
+                "Tuskhelm of Joritz the Mighty"
+            ],
+            "Druid": [
+                "Earthbreaker",
+                "Khamsin Steppewalkers",
+                "Mjölnic Ryng"
+            ],
+            "Necromancer": [
+                "Gravewalker's Hand",
+                "Omen of Pain",
+                "The Unmaker"
+            ],
+            "Paladin": [
+                "TBD"
+            ],
+            "Rogue": [
+                "Grasp of Shadow",
+                "Misericorde",
+                "Word of Hakan"
+            ],
+            "Sorcerer": [
+                "Axial Conduit",
+                "Ophidian Iris",
+                "Raiment of the Infinite"
+            ],
+            "Spiritborn": [
+                "Harmony of Ebewaka",
+                "Loyalty's Mantle"
+            ],
+            "Warlock": [
+                "Eye of Baal",
+                "Hand of Apotheosis",
+                "Sashes of the Wretched",
+                "The Hemat Stone"
+            ],
+            "All Classes": [
+                "Azurewrath",
+                "Flickerstep"
+            ],
             "Mythic Uniques": [
-                "Shattered Vow",
-                "Shroud of False Death",
-                "Ring of Starless Skies",
+                "Andariel's Visage",
+                "Ahavarion, Spear of Lycander",
+                "Doombringer",
+                "El'Druin, Sword of Justice All but Spiritborn)",
+                "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
-                "Andariel's Visage",
-                "Harlequin Crest",
-                "Tyrael's Might",
-                "Doombringer",
+                "Nesekem, the Herald",
+                "Ring of Starless Skies",
+                "Shattered Vow",
+                "Shroud of False Death",
                 "The Grandfather",
-                "Ahavarion, Spear of Lycander",
-                "Nesekem, the Herald"
+                "Tyrael's Might"
             ]
         }
     },
     {
         "id": "belial_lord_of_lies",
         "name": "Belial, Lord of Lies",
-        "summon": "2x Betrayer's Husk",
-        "location": "Palace of the Deceiver (Kehjistan)",
+        "summon": "2x ‍Betrayer's Husk",
+        "location": "Belial, Lord of Lies,in Kehjistan, west of the Tarsarak Waypoint.",
         "difficulty": "Torment 1+",
         "element": "Shadow and Poison",
         "cosmetic": "Unknown",
         "loot": {
             "Mythic Uniques": [
-                "Shattered Vow",
-                "Shroud of False Death",
-                "Ring of Starless Skies",
+                "Andariel's Visage",
+                "Ahavarion, Spear of Lycander",
+                "Doombringer",
+                "El'Druin, Sword of Justice All but Spiritborn)",
+                "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
-                "Andariel's Visage",
-                "Harlequin Crest",
-                "Tyrael's Might",
-                "Doombringer",
+                "Nesekem, the Herald",
+                "Ring of Starless Skies",
+                "Shattered Vow",
+                "Shroud of False Death",
                 "The Grandfather",
-                "Ahavarion, Spear of Lycander",
-                "Nesekem, the Herald"
+                "Tyrael's Might"
             ]
         }
     }
@@ -710,6 +745,7 @@ const lootData = {
     "Razorplate",
     "Rustbitten Dirk",
     "Shard of Verathiel",
+    "Signet of Pelghain",
     "Soulbrand",
     "Tassets of the Dawning Sky",
     "Temerity",
@@ -724,7 +760,7 @@ const lootData = {
 };
 
 // Generate Inverted Index for fast search
-// itemMap: { "itemName": { classes: [], bosses: [] } }
+// itemMap: { 'itemName': { classes: [], bosses: [] } }
 const itemDatabase = {};
 
 lootData.bosses.forEach(boss => {

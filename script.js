@@ -6,8 +6,13 @@ document.addEventListener('DOMContentLoaded', () => {
     const itemsGrid = document.getElementById('items-grid');
     const bossView = document.getElementById('boss-view');
     const itemsView = document.getElementById('item-results');
+    const classView = document.getElementById('class-view');
+    const classViewGrid = document.getElementById('class-view-grid');
+    const classViewTabs = document.getElementById('class-view-tabs');
     const clearSearchBtn = document.getElementById('clear-search');
     const classFilters = document.querySelectorAll('input[name="class"]');
+    const navBoss = document.getElementById('nav-boss');
+    const navClass = document.getElementById('nav-class');
     
     // Modals
     const itemModal = document.getElementById('item-modal');
@@ -17,9 +22,30 @@ document.addEventListener('DOMContentLoaded', () => {
     // State
     let currentFilter = 'All';
     let currentSearch = '';
+    let currentClassViewFilter = 'Sorcerer';
+    const classesList = ['Barbarian', 'Druid', 'Necromancer', 'Paladin', 'Rogue', 'Sorcerer', 'Spiritborn', 'Warlock'];
 
     // Initialize
     renderBosses();
+
+    // --- Navigation ---
+    navBoss.addEventListener('click', (e) => {
+        e.preventDefault();
+        navBoss.className = "text-brand-gold hover:text-brand-goldHover transition-colors font-medium text-sm border-b-2 border-brand-gold pb-1";
+        navClass.className = "text-gray-400 hover:text-white transition-colors font-medium text-sm pb-1 border-b-2 border-transparent hover:border-white/30";
+        searchInput.value = '';
+        currentSearch = '';
+        showBossView();
+    });
+
+    navClass.addEventListener('click', (e) => {
+        e.preventDefault();
+        navClass.className = "text-[#6b8cff] hover:text-white transition-colors font-medium text-sm border-b-2 border-[#6b8cff] pb-1";
+        navBoss.className = "text-gray-400 hover:text-white transition-colors font-medium text-sm pb-1 border-b-2 border-transparent hover:border-white/30";
+        searchInput.value = '';
+        currentSearch = '';
+        showClassView();
+    });
 
     // --- Search & Autocomplete ---
     searchInput.addEventListener('input', (e) => {
@@ -77,7 +103,10 @@ document.addEventListener('DOMContentLoaded', () => {
     classFilters.forEach(radio => {
         radio.addEventListener('change', (e) => {
             currentFilter = e.target.value;
-            if (currentSearch.length >= 2) {
+            if (!classView.classList.contains('hidden')) {
+                // If we are in Class View, changing sidebar filter might be confusing, but let's just switch back to boss view
+                showBossView();
+            } else if (currentSearch.length >= 2) {
                 performSearch(currentSearch);
             } else {
                 renderBosses();
@@ -125,13 +154,87 @@ document.addEventListener('DOMContentLoaded', () => {
 
         renderItems(matches);
         bossView.classList.add('hidden');
+        classView.classList.add('hidden');
         itemsView.classList.remove('hidden');
     }
 
     function showBossView() {
         bossView.classList.remove('hidden');
         itemsView.classList.add('hidden');
+        classView.classList.add('hidden');
         renderBosses();
+    }
+
+    function showClassView() {
+        bossView.classList.add('hidden');
+        itemsView.classList.add('hidden');
+        classView.classList.remove('hidden');
+        renderClassTabs();
+        renderClassGrid();
+    }
+
+    function renderClassTabs() {
+        classViewTabs.innerHTML = '';
+        classesList.forEach(cls => {
+            const btn = document.createElement('button');
+            if (cls === currentClassViewFilter) {
+                btn.className = "px-4 py-1.5 rounded-full bg-[#6b8cff]/20 text-[#6b8cff] border border-[#6b8cff]/30 text-sm font-bold shadow-[0_0_10px_rgba(107,140,255,0.2)]";
+            } else {
+                btn.className = "px-4 py-1.5 rounded-full bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white text-sm font-medium transition-all border border-transparent";
+            }
+            btn.textContent = cls;
+            btn.addEventListener('click', () => {
+                currentClassViewFilter = cls;
+                renderClassTabs();
+                renderClassGrid();
+            });
+            classViewTabs.appendChild(btn);
+        });
+    }
+
+    function renderClassGrid() {
+        const matches = allItems.filter(item => {
+            return item.classes.some(c => c.includes(currentClassViewFilter)) || item.classes.includes('All Classes');
+        });
+        
+        classViewGrid.innerHTML = '';
+        if (matches.length === 0) {
+            classViewGrid.innerHTML = `
+                <div class="col-span-full py-12 text-center text-gray-500">
+                    <p>No items found for this class.</p>
+                </div>
+            `;
+            return;
+        }
+
+        matches.forEach(item => {
+            const card = document.createElement('div');
+            const isMythic = item.classes.includes('Mythic Uniques');
+            card.className = `bg-brand-card p-5 rounded-xl card-hover cursor-pointer flex flex-col justify-between h-full relative overflow-hidden group`;
+            
+            let classTags = item.classes.map(c => {
+                let colorClass = 'bg-white/5 text-gray-400';
+                if(c === 'Mythic Uniques') colorClass = 'bg-[#c16bff]/20 text-[#c16bff] border border-[#c16bff]/30';
+                return `<span class="px-2 py-0.5 rounded text-xs ${colorClass}">${c}</span>`;
+            }).join(' ');
+
+            card.innerHTML = `
+                <div class="absolute -right-6 -top-6 w-24 h-24 bg-[#6b8cff]/10 rounded-full blur-xl group-hover:bg-[#6b8cff]/20 transition-all"></div>
+                <div class="relative z-10">
+                    <h3 class="text-lg font-bold ${isMythic ? 'text-[#c16bff]' : 'text-[#6b8cff]'} mb-2">${item.name}</h3>
+                    <div class="flex flex-wrap gap-1.5 mb-4">${classTags}</div>
+                </div>
+                <div class="relative z-10 mt-auto border-t border-white/5 pt-3">
+                    <p class="text-sm text-gray-400 flex items-start gap-1.5">
+                        <svg class="w-4 h-4 mt-0.5 flex-shrink-0" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 11H5m14 0a2 2 0 012 2v6a2 2 0 01-2 2H5a2 2 0 01-2-2v-6a2 2 0 012-2m14 0V9a2 2 0 00-2-2M5 11V9a2 2 0 012-2m0 0V5a2 2 0 012-2h6a2 2 0 012 2v2M7 7h10"></path></svg>
+                        <span class="line-clamp-2">Dropped by: <span class="text-gray-300">${item.bosses.map(b => b.name).join(', ')}</span></span>
+                    </p>
+                </div>
+            `;
+
+            card.addEventListener('click', () => openItemModal(item));
+            classViewGrid.appendChild(card);
+        });
     }
 
     function renderItems(items) {
