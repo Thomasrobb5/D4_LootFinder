@@ -84,7 +84,14 @@ for (let i = 0; i < lines.length; i++) {
     } else if (line.startsWith('Cosmetic Reward:')) {
         currentBoss.cosmetic = line.replace('Cosmetic Reward:', '').replace(/‍/g, '').trim();
     } else if (line.match(/is located|East of|South of|West of|North of|near the|resides in|at the end of|in Kehjistan/i) && currentBoss.location === 'Unknown') {
-        currentBoss.location = line.replace(/The | is located | is | resides in /, '').trim();
+        let loc = line;
+        const prefixRegex = new RegExp('^(?:The |)' + currentBoss.name.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?:,\\s*Lord of Lies,?)?', 'i');
+        loc = loc.replace(prefixRegex, '').trim();
+        loc = loc.replace(/^(?:is located |is |resides in )/i, '').trim();
+        if (loc.toLowerCase().startsWith('located ')) loc = loc.substring(8).trim();
+        if (loc.toLowerCase().startsWith('in ')) loc = loc.substring(3).trim();
+        if (loc.toLowerCase().startsWith('at ')) loc = loc.substring(3).trim();
+        currentBoss.location = loc.charAt(0).toUpperCase() + loc.slice(1);
     } else if (line === 'Barbarian:') {
         currentClass = 'Barbarian';
         currentBoss.loot[currentClass] = [];
@@ -112,15 +119,6 @@ for (let i = 0; i < lines.length; i++) {
     } else if (line === 'Multiple Classes:') {
         currentClass = 'All Classes';
         currentBoss.loot[currentClass] = [];
-    } else if (currentBoss.name === 'The Butcher' && line.includes('‍')) {
-        // Handle table-like lines for Butcher
-        const parts = line.split('\t');
-        if (parts.length >= 2) {
-            const classes = parts[0].trim();
-            const item = parts[1].replace(/‍/g, '').replace(' ?', '').trim();
-            if (!currentBoss.loot[classes]) currentBoss.loot[classes] = [];
-            currentBoss.loot[classes].push(item);
-        }
     } else if (currentClass && line.startsWith('‍')) {
         currentBoss.loot[currentClass].push(line.replace('‍', '').replace(' ?', '').trim());
     } else if (currentClass && line === 'TBD') {

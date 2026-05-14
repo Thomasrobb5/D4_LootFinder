@@ -1,6 +1,6 @@
 General Unique Pool
 Boss Cheat Sheet
-Every Boss Lair encounter can drop items from the General Unique Pool in addition to their boss-specific Uniques. This pool consists of the following:
+Every Boss Lair encounter can drop items from the General Unique Pool in addition to their boss-specific Uniques, though the main bulk of boss drops are dedicated Uniques. This pool consists of the following:
 
 ‍Azurewrath
 ‍Banished Lord's Talisman
@@ -25,6 +25,7 @@ Every Boss Lair encounter can drop items from the General Unique Pool in additio
 ‍Temerity
 ‍The Butcher's Cleaver
 ‍Thousand-Eye Reaver
+‍Thundergod's Blessing
 ‍Tibault's Will
 ‍Wendigo Brand
 ‍Wyrdskin
@@ -32,6 +33,28 @@ Every Boss Lair encounter can drop items from the General Unique Pool in additio
 ‍Yen's Blessing
 + All Class Specific items from other Boss Lair Encounters
 
+Non-Boss Uniques
+Boss Loot Tables
+Some general Uniques do not have a dedicated drop location. In order to obtain these you must either get them from a random drop, or use the Horadric Cube to convert a Common item into a Unique of the same slot. The last option is preferred if you have the necessary materials available, as waiting for a specific non-boss Unique to randomly drop could take a long time.
+
+‍Banished Lord's Talisman
+‍Blood-Mad Idol
+‍Endurant Faith
+‍Fists of Fate
+‍Flickerstep
+‍Frostburn
+‍Locran's Talisman
+‍Mother's Embrace
+‍Penitent Greaves
+‍Rakanoth's Wake
+‍Rustbitten Dirk
+‍Soulbrand
+‍Tassets of the Dawning Sky
+‍Thousand-Eye Reaver
+‍Thundergod's Blessing
+‍Tibault's Will
+‍Wendigo Brand
+‍Wyrdskin
 Echo of Varshan
 Boss Loot Tables
 Basic Information
@@ -58,7 +81,6 @@ Necromancer:
 Paladin:
 
 ‍Seal of the Second Trumpet
-‍Ward of the White Dove ?
 ‍Wreath of Auric Laurel
 Rogue:
 
@@ -70,11 +92,10 @@ Sorcerer:
 ‍Levin Grasp
 ‍Onyx Soul
 ‍Raiment of the Sea
-‍Vox Omnium
 Spiritborn:
 
 ‍Balazan's Maxtlatl
-‍Sunstained War-Crozier
+‍Wound Drinker
 Warlock:
 
 ‍Ae'grom's Schism
@@ -83,7 +104,6 @@ Warlock:
 Multiple Classes:
 
 ‍Shard of Verathiel
-‍Tibault's Will ?
 + Items from the General Unique Pool.
 
 Grigoire, The Galvanic Saint
@@ -108,6 +128,7 @@ Druid:
 Necromancer:
 
 ‍Deathgrip
+‍The Mortacrux
 Paladin:
 
 ‍Bastion of Sir Matthias
@@ -119,15 +140,16 @@ Rogue:
 Sorcerer:
 
 ‍Strike of Stormhorn
+‍The Oculus
 ‍Vision of the Firestorm
 Spiritborn:
 
-‍Band of First Breath ?
-‍Sunbird's Gorget ?
+‍Peacemonger's Signet
+‍Sunstained War-Crozier
 Warlock:
 
 ‍Cage of Madness
-‍Hands of the Worldbreaker ?
+‍Hands of the Worldbreaker
 ‍Seed of Horazon
 ‍Sire of Sin
 Multiple Classes:
@@ -170,6 +192,7 @@ Sorcerer:
 
 ‍Gift of Frost
 ‍Starfall Coronet
+‍Vox Omnium
 Spiritborn:
 
 ‍Protection of the Prime
@@ -178,6 +201,7 @@ Warlock:
 
 ‍Hellhound's Sabatons
 ‍Kabraxis' Will
+‍The Eightfold Idol
 Multiple Classes:
 
 ‍Signet of Pelghain
@@ -222,13 +246,13 @@ Sorcerer:
 ‍Staff of Lam Esen
 Spiritborn:
 
+‍Ring of the Midday Hunt
 ‍Ring of Writhing Moon
 Warlock:
 
-‍Dirge of Airidah
-‍Elegy ?
+‍Dirge of Odium
+‍Elegy
 ‍Fleshwrit Carapace
-‍Hands of the Worldbreaker ?
 Multiple Classes:
 
 ‍X'Fal's Corroded Signet
@@ -273,18 +297,15 @@ Sorcerer:
 ‍Molten Band
 Spiritborn:
 
-‍Band of First Breath ?
-‍Loyalty's Mantle ?
-‍Sunbird's Gorget ?
-‍Wushe Nak Pa ?
+‍Band of First Breath
+‍Sunbird's Gorget
 Warlock:
 
-‍Cowl of Malefic Torment ?
+‍Cowl of Malefic Torment
 ‍Infernal Homunculus
 ‍The Blade of Sight Aflame
 Multiple Classes:
 
-‍Tibault's Will ?
 ‍Yen's Blessing
 + Items from the General Unique Pool.
 
@@ -309,11 +330,13 @@ Druid:
 ‍Mark of the Old Wolf
 Necromancer:
 
+‍Mutilator Plate
+‍Path of Trag'Oul
 ‍The Undercrown
 Paladin:
 
 ‍Supplication
-‍Ward of the White Dove ?
+‍Ward of the White Dove
 Rogue:
 
 ‍Bands of Ichorous Rose
@@ -326,13 +349,13 @@ Sorcerer:
 ‍Staff of Endless Rage
 Spiritborn:
 
-‍Rod of Kepeleke
 ‍Widow's Web
-‍Wushe Nak Pa ?
+‍Wushe Nak Pa
 Warlock:
 
 ‍Gauntlets of Sheol
-‍Rictus of Terror ?
+‍Morlu Fleshward
+‍Rictus of Terror
 ‍Scourge of Duriel
 Multiple Classes:
 
@@ -362,6 +385,7 @@ Druid:
 Necromancer:
 
 ‍Ebonpiercer
+‍Kessime's Legacy
 ‍Lidless Wall
 Paladin:
 
@@ -380,14 +404,11 @@ Sorcerer:
 Spiritborn:
 
 ‍Craze of the Dead God
-‍Protean Heart ?
-‍Ring of the Midday Hunt
+‍Jacinth Shell
 Warlock:
 
-‍Anathema of the Primes ?
-‍Elegy ?
+‍Anathema of the Primes
 ‍Night Terror
-‍Rictus of Terror ?
 ‍Scepter of the Three
 Multiple Classes:
 
@@ -426,7 +447,7 @@ Paladin:
 Rogue:
 
 ‍Etna's Lost Dagger
-‍Scoundrel's Leathers ?
+‍Scoundrel's Leathers
 ‍Shrouded Gift
 Sorcerer:
 
@@ -435,13 +456,11 @@ Sorcerer:
 ‍Tal Rasha's Iridescent Loop
 Spiritborn:
 
-‍Protean Heart ?
+‍Protean Heart
 ‍Sepazontec
 Warlock:
 
-‍Anathema of the Primes ?
 ‍Bridle of Tor'Baalos
-‍Litany of Sable ?
 ‍Spine of Tathamet
 ‍The Fecund Seal
 Multiple Classes:
@@ -458,7 +477,7 @@ Boss Lair Key: 1x ‍Greater Lair Key
 Element Type: Fire/Physical
 Cosmetic Reward: Unknown
 Butcher Gea Kul 272 X 506
-Harbinger of Hatred is located in Nahantu, near the Kurast Docks Waypoint.
+The Butcher is located in Gea Kul.
 Barbarian:
 
 ‍Chainscourged Mail
@@ -482,7 +501,7 @@ Paladin:
 Rogue:
 
 ‍Cowl of the Nameless
-‍Fist of the Iron Rose ?
+‍Fist of the Iron Rose
 ‍Scoundrel's Kiss
 Sorcerer:
 
@@ -516,7 +535,7 @@ Escalation Sigil 444 X 506
 Astaroth is located at the end of Escalating Nightmare Dungeons.
 Barbarian:
 
-‍Battle Trance ?
+‍Battle Trance
 ‍Hooves of the Mountain God
 ‍The Third Blade
 Druid:
@@ -526,15 +545,18 @@ Druid:
 ‍Wildheart Hunger
 Necromancer:
 
-TBD
+‍Blood Moon Breeches
+‍Bloodless Scream
+‍Ring of the Sacrilegious Soul
 Paladin:
 
 ‍Griswold's Opus
 ‍Herald of Zakarum
 Rogue:
 
-‍Asheara's Khanjar ?
-‍Gladiator's Triumph ?
+‍Asheara's Khanjar
+‍Eyes in the Dark
+‍Gladiator's Triumph
 Sorcerer:
 
 ‍Esu's Heirloom
@@ -544,17 +566,16 @@ Spiritborn:
 
 ‍Echo of Kwatli
 ‍Ring of the Midnight Sun
+‍Rod of Kepeleke
 Warlock:
 
 ‍Bindings of Attrition
-‍Cowl of Malefic Torment ?
 ‍Footfalls of the Waning World
 ‍Hecaton Chasm
-‍Litany of Sable ?
+‍Litany of Sable
 Multiple Classes:
 
 ‍Crown of Lucion
-‍Endurant Faith ?
 + Items from the General Unique Pool.
 
 Bartuc
@@ -584,12 +605,13 @@ Necromancer:
 ‍The Unmaker
 Paladin:
 
-TBD
+‍Arcadia
+‍Sundered Night
 Rogue:
 
-‍Grasp of Shadow ?
-‍Misericorde ?
-‍Word of Hakan ?
+‍Grasp of Shadow
+‍Misericorde
+‍Word of Hakan
 Sorcerer:
 
 ‍Axial Conduit
@@ -598,7 +620,7 @@ Sorcerer:
 Spiritborn:
 
 ‍Harmony of Ebewaka
-‍Loyalty's Mantle ?
+‍Loyalty's Mantle
 Warlock:
 
 ‍Eye of Baal
@@ -608,7 +630,6 @@ Warlock:
 Multiple Classes:
 
 ‍Azurewrath
-‍Flickerstep ?
 + Items from the General Unique Pool.
 
 Belial, Lord of Lies
@@ -635,7 +656,7 @@ Mythic Item Glow 451 X 506
 ‍Andariel's Visage (All)
 ‍Ahavarion, Spear of Lycander (Druid, Sorc)
 ‍Doombringer (All but Spiritborn)
-‍El'Druin, Sword of Justice All but Spiritborn)
+‍El'Druin, Sword of Justice (All but Spiritborn)
 ‍Harlequin Crest (All)
 ‍Heir of Perdition (All)
 ‍Melted Heart of Selig (All)
@@ -646,7 +667,3 @@ Mythic Item Glow 451 X 506
 ‍Shroud of False Death (All)
 ‍The Grandfather (Barb, Necro, Paladin, Warlock)
 ‍Tyrael's Might (All)
-
-Summary
-Each Boss has a specific loot table with higher chances of dropping certain Unique items.
-Mythic Unique items can be acquired from all bosses.

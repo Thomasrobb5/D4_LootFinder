@@ -2,10 +2,36 @@
 const lootData = {
     bosses: [
     {
+        "id": "non_boss_uniques",
+        "name": "Non-Boss Uniques",
+        "summon": "Unknown",
+        "location": "Unknown",
+        "difficulty": "Torment 1+",
+        "element": "Unknown",
+        "cosmetic": "Unknown",
+        "loot": {
+            "Mythic Uniques": [
+                "Andariel's Visage",
+                "Ahavarion, Spear of Lycander",
+                "Doombringer",
+                "El'Druin, Sword of Justice",
+                "Harlequin Crest",
+                "Heir of Perdition",
+                "Melted Heart of Selig",
+                "Nesekem, the Herald",
+                "Ring of Starless Skies",
+                "Shattered Vow",
+                "Shroud of False Death",
+                "The Grandfather",
+                "Tyrael's Might"
+            ]
+        }
+    },
+    {
         "id": "echo_of_varshan",
         "name": "Echo of Varshan",
         "summon": "1x ‍Lair Key",
-        "location": "Malignant Burrow is located near the Tree of Whispers Waypoint in Hawezar",
+        "location": "The Malignant Burrow is located near the Tree of Whispers Waypoint in Hawezar",
         "difficulty": "Torment 1+",
         "element": "Shadow / Physical",
         "cosmetic": "Flesh-weld Rod Trophy",
@@ -25,7 +51,6 @@ const lootData = {
             ],
             "Paladin": [
                 "Seal of the Second Trumpet",
-                "Ward of the White Dove",
                 "Wreath of Auric Laurel"
             ],
             "Rogue": [
@@ -36,12 +61,11 @@ const lootData = {
             "Sorcerer": [
                 "Levin Grasp",
                 "Onyx Soul",
-                "Raiment of the Sea",
-                "Vox Omnium"
+                "Raiment of the Sea"
             ],
             "Spiritborn": [
                 "Balazan's Maxtlatl",
-                "Sunstained War-Crozier"
+                "Wound Drinker"
             ],
             "Warlock": [
                 "Ae'grom's Schism",
@@ -49,14 +73,13 @@ const lootData = {
                 "Thrice-Woven Nightmare"
             ],
             "All Classes": [
-                "Shard of Verathiel",
-                "Tibault's Will"
+                "Shard of Verathiel"
             ],
             "Mythic Uniques": [
                 "Andariel's Visage",
                 "Ahavarion, Spear of Lycander",
                 "Doombringer",
-                "El'Druin, Sword of Justice All but Spiritborn)",
+                "El'Druin, Sword of Justice",
                 "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
@@ -73,7 +96,7 @@ const lootData = {
         "id": "grigoire_the_galvanic_saint",
         "name": "Grigoire, The Galvanic Saint",
         "summon": "1x ‍Lair Key",
-        "location": "Hall of the Penitent is located South of Ked Bardu in the Dry Steppes",
+        "location": "The Hall of the Penitent is located South of Ked Bardu in the Dry Steppes",
         "difficulty": "Torment 1+",
         "element": "Lightning",
         "cosmetic": "Demonbinder Mount Armor Cosmetic",
@@ -88,7 +111,8 @@ const lootData = {
                 "Will of Stone"
             ],
             "Necromancer": [
-                "Deathgrip"
+                "Deathgrip",
+                "The Mortacrux"
             ],
             "Paladin": [
                 "Bastion of Sir Matthias",
@@ -100,11 +124,12 @@ const lootData = {
             ],
             "Sorcerer": [
                 "Strike of Stormhorn",
+                "The Oculus",
                 "Vision of the Firestorm"
             ],
             "Spiritborn": [
-                "Band of First Breath",
-                "Sunbird's Gorget"
+                "Peacemonger's Signet",
+                "Sunstained War-Crozier"
             ],
             "Warlock": [
                 "Cage of Madness",
@@ -119,7 +144,7 @@ const lootData = {
                 "Andariel's Visage",
                 "Ahavarion, Spear of Lycander",
                 "Doombringer",
-                "El'Druin, Sword of Justice All but Spiritborn)",
+                "El'Druin, Sword of Justice",
                 "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
@@ -136,7 +161,7 @@ const lootData = {
         "id": "the_beast_in_the_ice",
         "name": "The Beast in the Ice",
         "summon": "1x ‍Lair Key",
-        "location": "Glacial Fissure is located South-west of Kyovashad in the Fractured Peaks",
+        "location": "The Glacial Fissure is located South-west of Kyovashad in the Fractured Peaks",
         "difficulty": "Torment 1+",
         "element": "Cold",
         "cosmetic": "Skull Torch and Binding the Fell Steed",
@@ -164,7 +189,8 @@ const lootData = {
             ],
             "Sorcerer": [
                 "Gift of Frost",
-                "Starfall Coronet"
+                "Starfall Coronet",
+                "Vox Omnium"
             ],
             "Spiritborn": [
                 "Protection of the Prime",
@@ -172,7 +198,8 @@ const lootData = {
             ],
             "Warlock": [
                 "Hellhound's Sabatons",
-                "Kabraxis' Will"
+                "Kabraxis' Will",
+                "The Eightfold Idol"
             ],
             "All Classes": [
                 "Signet of Pelghain"
@@ -181,7 +208,7 @@ const lootData = {
                 "Andariel's Visage",
                 "Ahavarion, Spear of Lycander",
                 "Doombringer",
-                "El'Druin, Sword of Justice All but Spiritborn)",
+                "El'Druin, Sword of Justice",
                 "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
@@ -198,7 +225,7 @@ const lootData = {
         "id": "lord_zir",
         "name": "Lord Zir",
         "summon": "1x ‍Lair Key",
-        "location": "Darkened Way is East of Kyovashad in the Fractured Peaks",
+        "location": "The Darkened Way is East of Kyovashad in the Fractured Peaks",
         "difficulty": "Torment 1+",
         "element": "Fire",
         "cosmetic": "Diadem of the Ancient Helm Cosmetic",
@@ -231,13 +258,13 @@ const lootData = {
                 "Staff of Lam Esen"
             ],
             "Spiritborn": [
+                "Ring of the Midday Hunt",
                 "Ring of Writhing Moon"
             ],
             "Warlock": [
-                "Dirge of Airidah",
+                "Dirge of Odium",
                 "Elegy",
-                "Fleshwrit Carapace",
-                "Hands of the Worldbreaker"
+                "Fleshwrit Carapace"
             ],
             "All Classes": [
                 "X'Fal's Corroded Signet"
@@ -246,7 +273,7 @@ const lootData = {
                 "Andariel's Visage",
                 "Ahavarion, Spear of Lycander",
                 "Doombringer",
-                "El'Druin, Sword of Justice All but Spiritborn)",
+                "El'Druin, Sword of Justice",
                 "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
@@ -263,7 +290,7 @@ const lootData = {
         "id": "urivar",
         "name": "Urivar",
         "summon": "1x ‍Lair Key",
-        "location": "Urivarin Nahantu, near the Kichuk Waypoint.",
+        "location": "Nahantu, near the Kichuk Waypoint.",
         "difficulty": "Torment 1+",
         "element": "Fire",
         "cosmetic": "Unknown",
@@ -297,9 +324,7 @@ const lootData = {
             ],
             "Spiritborn": [
                 "Band of First Breath",
-                "Loyalty's Mantle",
-                "Sunbird's Gorget",
-                "Wushe Nak Pa"
+                "Sunbird's Gorget"
             ],
             "Warlock": [
                 "Cowl of Malefic Torment",
@@ -307,14 +332,13 @@ const lootData = {
                 "The Blade of Sight Aflame"
             ],
             "All Classes": [
-                "Tibault's Will",
                 "Yen's Blessing"
             ],
             "Mythic Uniques": [
                 "Andariel's Visage",
                 "Ahavarion, Spear of Lycander",
                 "Doombringer",
-                "El'Druin, Sword of Justice All but Spiritborn)",
+                "El'Druin, Sword of Justice",
                 "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
@@ -331,7 +355,7 @@ const lootData = {
         "id": "duriel_king_of_maggots",
         "name": "Duriel, King of Maggots",
         "summon": "1x ‍Greater Lair Key",
-        "location": "Gaping Crevasse to the East of Gea Kul in Kehjistan.",
+        "location": "The Gaping Crevasse to the East of Gea Kul in Kehjistan.",
         "difficulty": "Torment 1+",
         "element": "Poison",
         "cosmetic": "The Smoldering Brimstone Mount",
@@ -346,6 +370,8 @@ const lootData = {
                 "Mark of the Old Wolf"
             ],
             "Necromancer": [
+                "Mutilator Plate",
+                "Path of Trag'Oul",
                 "The Undercrown"
             ],
             "Paladin": [
@@ -363,12 +389,12 @@ const lootData = {
                 "Staff of Endless Rage"
             ],
             "Spiritborn": [
-                "Rod of Kepeleke",
                 "Widow's Web",
                 "Wushe Nak Pa"
             ],
             "Warlock": [
                 "Gauntlets of Sheol",
+                "Morlu Fleshward",
                 "Rictus of Terror",
                 "Scourge of Duriel"
             ],
@@ -379,7 +405,7 @@ const lootData = {
                 "Andariel's Visage",
                 "Ahavarion, Spear of Lycander",
                 "Doombringer",
-                "El'Druin, Sword of Justice All but Spiritborn)",
+                "El'Druin, Sword of Justice",
                 "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
@@ -413,6 +439,7 @@ const lootData = {
             ],
             "Necromancer": [
                 "Ebonpiercer",
+                "Kessime's Legacy",
                 "Lidless Wall"
             ],
             "Paladin": [
@@ -431,14 +458,11 @@ const lootData = {
             ],
             "Spiritborn": [
                 "Craze of the Dead God",
-                "Protean Heart",
-                "Ring of the Midday Hunt"
+                "Jacinth Shell"
             ],
             "Warlock": [
                 "Anathema of the Primes",
-                "Elegy",
                 "Night Terror",
-                "Rictus of Terror",
                 "Scepter of the Three"
             ],
             "All Classes": [
@@ -448,7 +472,7 @@ const lootData = {
                 "Andariel's Visage",
                 "Ahavarion, Spear of Lycander",
                 "Doombringer",
-                "El'Druin, Sword of Justice All but Spiritborn)",
+                "El'Druin, Sword of Justice",
                 "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
@@ -465,7 +489,7 @@ const lootData = {
         "id": "harbinger_of_hatred",
         "name": "Harbinger of Hatred",
         "summon": "1x ‍Greater Lair Key",
-        "location": "Harbinger of Hatredin Nahantu, near the Kurast Docks Waypoint.",
+        "location": "Nahantu, near the Kurast Docks Waypoint.",
         "difficulty": "Torment 1+",
         "element": "Shadow",
         "cosmetic": "Unknown",
@@ -504,9 +528,7 @@ const lootData = {
                 "Sepazontec"
             ],
             "Warlock": [
-                "Anathema of the Primes",
                 "Bridle of Tor'Baalos",
-                "Litany of Sable",
                 "Spine of Tathamet",
                 "The Fecund Seal"
             ],
@@ -517,7 +539,7 @@ const lootData = {
                 "Andariel's Visage",
                 "Ahavarion, Spear of Lycander",
                 "Doombringer",
-                "El'Druin, Sword of Justice All but Spiritborn)",
+                "El'Druin, Sword of Justice",
                 "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
@@ -534,25 +556,59 @@ const lootData = {
         "id": "the_butcher",
         "name": "The Butcher",
         "summon": "1x ‍Greater Lair Key",
-        "location": "Harbinger of Hatredin Nahantu, near the Kurast Docks Waypoint.",
+        "location": "Gea Kul.",
         "difficulty": "Torment 1+",
         "element": "Fire/Physical",
         "cosmetic": "Unknown",
         "loot": {
-            "Barbarian": [],
-            "Druid": [],
-            "Necromancer": [],
-            "Paladin": [],
-            "Rogue": [],
-            "Sorcerer": [],
-            "Spiritborn": [],
-            "Warlock": [],
-            "All Classes": [],
+            "Barbarian": [
+                "Chainscourged Mail",
+                "Rage of Harrogath",
+                "Ramaladni's Magnum Opus",
+                "Ring of Red Furor"
+            ],
+            "Druid": [
+                "Fury of the Wilds",
+                "Heart of Azgar",
+                "Purified Lightbringer"
+            ],
+            "Necromancer": [
+                "Mace of King Leoric",
+                "Red Blessing",
+                "Vengeful Sinew"
+            ],
+            "Paladin": [
+                "March of the Stalwart Soul",
+                "Red Sermon"
+            ],
+            "Rogue": [
+                "Cowl of the Nameless",
+                "Fist of the Iron Rose",
+                "Scoundrel's Kiss"
+            ],
+            "Sorcerer": [
+                "Emberfury",
+                "Shanar's Resonance",
+                "Staff of Zerae"
+            ],
+            "Spiritborn": [
+                "Hesha e Kesungi",
+                "Path of the Emissary"
+            ],
+            "Warlock": [
+                "Hellbrand Signet",
+                "Lurid Pact",
+                "Moloch's Beating Flame",
+                "Nails of the Gore-Crowned"
+            ],
+            "All Classes": [
+                "The Butcher's Cleaver"
+            ],
             "Mythic Uniques": [
                 "Andariel's Visage",
                 "Ahavarion, Spear of Lycander",
                 "Doombringer",
-                "El'Druin, Sword of Justice All but Spiritborn)",
+                "El'Druin, Sword of Justice",
                 "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
@@ -569,7 +625,7 @@ const lootData = {
         "id": "astaroth",
         "name": "Astaroth",
         "summon": "1x ‍Escalation Sigil",
-        "location": "Astarothat the end of Escalating Nightmare Dungeons.",
+        "location": "The end of Escalating Nightmare Dungeons.",
         "difficulty": "Torment 1+",
         "element": "Fire",
         "cosmetic": "Unknown",
@@ -585,7 +641,9 @@ const lootData = {
                 "Wildheart Hunger"
             ],
             "Necromancer": [
-                "TBD"
+                "Blood Moon Breeches",
+                "Bloodless Scream",
+                "Ring of the Sacrilegious Soul"
             ],
             "Paladin": [
                 "Griswold's Opus",
@@ -593,6 +651,7 @@ const lootData = {
             ],
             "Rogue": [
                 "Asheara's Khanjar",
+                "Eyes in the Dark",
                 "Gladiator's Triumph"
             ],
             "Sorcerer": [
@@ -602,24 +661,23 @@ const lootData = {
             ],
             "Spiritborn": [
                 "Echo of Kwatli",
-                "Ring of the Midnight Sun"
+                "Ring of the Midnight Sun",
+                "Rod of Kepeleke"
             ],
             "Warlock": [
                 "Bindings of Attrition",
-                "Cowl of Malefic Torment",
                 "Footfalls of the Waning World",
                 "Hecaton Chasm",
                 "Litany of Sable"
             ],
             "All Classes": [
-                "Crown of Lucion",
-                "Endurant Faith"
+                "Crown of Lucion"
             ],
             "Mythic Uniques": [
                 "Andariel's Visage",
                 "Ahavarion, Spear of Lycander",
                 "Doombringer",
-                "El'Druin, Sword of Justice All but Spiritborn)",
+                "El'Druin, Sword of Justice",
                 "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
@@ -636,7 +694,7 @@ const lootData = {
         "id": "bartuc",
         "name": "Bartuc",
         "summon": "1x ‍Infernal Hordes Compass",
-        "location": "BartucInfernal Hordes, found in Kehjistan, near the Yshari Sanctum Waypoint.",
+        "location": "Infernal Hordes, found in Kehjistan, near the Yshari Sanctum Waypoint.",
         "difficulty": "Torment 1+",
         "element": "Fire and Shadow",
         "cosmetic": "Unknown",
@@ -657,7 +715,8 @@ const lootData = {
                 "The Unmaker"
             ],
             "Paladin": [
-                "TBD"
+                "Arcadia",
+                "Sundered Night"
             ],
             "Rogue": [
                 "Grasp of Shadow",
@@ -680,14 +739,13 @@ const lootData = {
                 "The Hemat Stone"
             ],
             "All Classes": [
-                "Azurewrath",
-                "Flickerstep"
+                "Azurewrath"
             ],
             "Mythic Uniques": [
                 "Andariel's Visage",
                 "Ahavarion, Spear of Lycander",
                 "Doombringer",
-                "El'Druin, Sword of Justice All but Spiritborn)",
+                "El'Druin, Sword of Justice",
                 "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
@@ -704,7 +762,7 @@ const lootData = {
         "id": "belial_lord_of_lies",
         "name": "Belial, Lord of Lies",
         "summon": "2x ‍Betrayer's Husk",
-        "location": "Belial, Lord of Lies,in Kehjistan, west of the Tarsarak Waypoint.",
+        "location": ", is located in Kehjistan, west of the Tarsarak Waypoint.",
         "difficulty": "Torment 1+",
         "element": "Shadow and Poison",
         "cosmetic": "Unknown",
@@ -713,7 +771,7 @@ const lootData = {
                 "Andariel's Visage",
                 "Ahavarion, Spear of Lycander",
                 "Doombringer",
-                "El'Druin, Sword of Justice All but Spiritborn)",
+                "El'Druin, Sword of Justice",
                 "Harlequin Crest",
                 "Heir of Perdition",
                 "Melted Heart of Selig",
@@ -751,6 +809,7 @@ const lootData = {
     "Temerity",
     "The Butcher's Cleaver",
     "Thousand-Eye Reaver",
+    "Thundergod's Blessing",
     "Tibault's Will",
     "Wendigo Brand",
     "Wyrdskin",
